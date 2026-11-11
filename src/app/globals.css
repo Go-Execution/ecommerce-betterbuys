@@ -1,26 +1,195 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-canvas: #f4f5fa;
+  --bg-surface: #ffffff;
+  --bg-studio: #f1f3f9;
+  --text-primary: #141523;
+  --text-secondary: #5c6078;
+  --text-muted: #8c90a6;
+  --border-subtle: #e7e9f2;
+  --accent-indigo: #5d45fd;
+  --accent-indigo-hover: #4b33ec;
+  --accent-indigo-soft: #eeebff;
+  --accent-gold: #ffd233;
+  --accent-coral: #ff5a36;
+  --brand-color: #5d45fd;
+  color-scheme: light;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--bg-canvas);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-canvas);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  accent-color: var(--brand-color);
+  overflow-x: clip;
+}
+
+::selection {
+  background-color: rgba(93, 69, 253, 0.16);
+  color: #141523;
+}
+
+/* Custom Range Slider (following modern-web-guidance slider spec) */
+input[type="range"].ebb-range {
+  --slider-track-size: 0.375rem;
+  --slider-thumb-size: 1.125rem;
+  --slider-track-radius: 999px;
+  --slider-thumb-radius: 50%;
+  --slider-track-color: transparent;
+  --slider-fill-color: transparent;
+  --slider-thumb-color: #ffffff;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+input[type="range"].ebb-range::-webkit-slider-runnable-track {
+  block-size: var(--slider-track-size);
+  border: 0;
+  border-radius: var(--slider-track-radius);
+  background: transparent;
+}
+
+input[type="range"].ebb-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: auto;
+  inline-size: var(--slider-thumb-size);
+  block-size: var(--slider-thumb-size);
+  margin-block-start: calc(
+    (var(--slider-track-size) - var(--slider-thumb-size)) / 2
+  );
+  border: 3px solid var(--accent-indigo);
+  border-radius: var(--slider-thumb-radius);
+  background: var(--slider-thumb-color);
+  box-shadow: 0 2px 8px rgba(93, 69, 253, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="range"].ebb-range::-webkit-slider-thumb:hover {
+  transform: scale(1.14);
+  box-shadow: 0 4px 12px rgba(93, 69, 253, 0.45);
+}
+
+input[type="range"].ebb-range::-moz-range-track {
+  block-size: var(--slider-track-size);
+  border: 0;
+  background: transparent;
+}
+
+input[type="range"].ebb-range::-moz-range-thumb {
+  pointer-events: auto;
+  inline-size: var(--slider-thumb-size);
+  block-size: var(--slider-thumb-size);
+  border: 3px solid var(--accent-indigo);
+  border-radius: var(--slider-thumb-radius);
+  background: var(--slider-thumb-color);
+  box-shadow: 0 2px 8px rgba(93, 69, 253, 0.35);
+}
+
+input[type="range"].ebb-range:focus-visible {
+  outline: none;
+}
+
+input[type="range"].ebb-range:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--accent-indigo);
+  outline-offset: 3px;
+}
+
+/* Brand-Consistent Checkbox fallback when accent-color is unsupported */
+@supports not (accent-color: #5d45fd) {
+  input[type="checkbox"].ebb-checkbox {
+    accent-color: #5d45fd;
+  }
+}
+
+/* Validation after interaction (modern-web-guidance validate-input-after-interaction) */
+.ebb-input {
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.ebb-input:is(:user-invalid, .user-invalid-fallback) {
+  border-color: #e11d48;
+  background-color: #fff1f2;
+}
+
+.ebb-input:is(:user-invalid, .user-invalid-fallback) + .ebb-error-msg {
+  display: flex;
+}
+
+.ebb-input:user-valid {
+  border-color: #16a34a;
+}
+
+.ebb-error-msg {
+  display: none;
+}
+
+/* Visually hidden accessible utility */
+.visually-hidden:where(:not(:focus-within, :active)) {
+  position: absolute !important;
+  clip-path: inset(50%) !important;
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
+
+/* Native CSS Scroll-Driven Reveal (progressive enhancement) */
+@media (prefers-reduced-motion: no-preference) {
+  @supports ((animation-timeline: view()) and (animation-range: entry)) {
+    @keyframes ebb-scroll-reveal {
+      entry 0% {
+        opacity: 0.35;
+        transform: translateY(20px) scale(0.985);
+      }
+      entry 100%,
+      exit 0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .ebb-scroll-card {
+      animation: ebb-scroll-reveal auto linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
+}
+
+/* Hide scrollbars cleanly in horizontal category strip */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
