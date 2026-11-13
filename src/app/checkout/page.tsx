@@ -126,7 +126,7 @@ export default function CheckoutPage() {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 text-center">
         <div className="rounded-[28px] border border-[#EAECEF] bg-white p-8 shadow-sm sm:p-12">
-          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#EEEBFF] text-[#5D45FD]">
+          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#FFF1E5] text-[#FF6B00]">
             <BasketIcon size={32} weight="duotone" />
           </div>
           <h1 className="mt-4 font-display text-2xl font-bold text-[#141523]">
@@ -138,14 +138,14 @@ export default function CheckoutPage() {
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
               href="/shop"
-              className="inline-flex h-11 items-center rounded-full bg-[#5D45FD] px-7 text-sm font-bold text-white shadow-md shadow-[#5D45FD]/25 hover:bg-[#4B33EC]"
+              className="inline-flex h-11 items-center rounded-full bg-[#FF6B00] px-7 text-sm font-bold text-white shadow-md shadow-[#FF6B00]/25 hover:bg-[#E55A00]"
             >
               Browse All Products
             </Link>
             <button
               type="button"
               onClick={() => addToCart(sampleItem, 1, undefined, false)}
-              className="inline-flex h-11 items-center rounded-full border border-[#5D45FD] bg-white px-6 text-sm font-semibold text-[#5D45FD] hover:bg-[#EEEBFF]"
+              className="inline-flex h-11 items-center rounded-full border border-[#0077EE] bg-white px-6 text-sm font-semibold text-[#0077EE] hover:bg-[#EAF3FF]"
             >
               Quick-Add {sampleItem.shortName} (${sampleItem.price})
             </button>
@@ -161,7 +161,7 @@ export default function CheckoutPage() {
         <div>
           <Link
             href="/cart"
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#5D45FD] hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0077EE] hover:underline"
           >
             <ArrowLeftIcon size={14} weight="bold" />
             <span>Back to Cart</span>
@@ -192,7 +192,7 @@ export default function CheckoutPage() {
           {/* Step 1: Contact Information */}
           <section className="rounded-[26px] border border-[#EAECEF] bg-white p-6 shadow-xs">
             <div className="flex items-center gap-2.5">
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#5D45FD] text-xs font-bold text-white">
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#01143F] text-xs font-bold text-white">
                 1
               </span>
               <h3 className="font-display text-lg font-bold text-[#141523]">
@@ -218,7 +218,7 @@ export default function CheckoutPage() {
                   onChange={(e) => setFullName(e.target.value)}
                   placeholder="Jordan Rivera"
                   data-error="co-name-err"
-                  className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                  className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                 />
                 <p
                   id="co-name-err"
@@ -251,7 +251,7 @@ export default function CheckoutPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@example.com"
-                  className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                  className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                 />
                 <p className="ebb-error-msg mt-1 text-xs font-medium text-rose-600">
                   Enter an email address in the format you@example.com.
@@ -278,7 +278,7 @@ export default function CheckoutPage() {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   placeholder="(518) 555-0194"
-                  className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                  className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                 />
                 <p className="ebb-error-msg mt-1 text-xs font-medium text-rose-600">
                   Please enter a valid contact phone number.
@@ -290,7 +290,7 @@ export default function CheckoutPage() {
           {/* Step 2: Delivery Method & Address */}
           <section className="rounded-[26px] border border-[#EAECEF] bg-white p-6 shadow-xs">
             <div className="flex items-center gap-2.5">
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#5D45FD] text-xs font-bold text-white">
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#01143F] text-xs font-bold text-white">
                 2
               </span>
               <h3 className="font-display text-lg font-bold text-[#141523]">
@@ -312,7 +312,7 @@ export default function CheckoutPage() {
                       key={opt.id}
                       className={`flex cursor-pointer flex-col justify-between rounded-2xl border p-3.5 transition-all ${
                         selected
-                          ? "border-[#5D45FD] bg-[#F7F6FF] ring-1 ring-[#5D45FD]"
+                          ? "border-[#FF6B00] bg-[#FFF6F0] ring-1 ring-[#FF6B00]"
                           : "border-[#E7E9F2] hover:border-[#D5D1FC]"
                       }`}
                     >
@@ -322,9 +322,9 @@ export default function CheckoutPage() {
                           name="shipping-method"
                           checked={selected}
                           onChange={() => setShippingMethod(opt.id)}
-                          className="mt-0.5 h-4 w-4 accent-[#5D45FD]"
+                          className="mt-0.5 h-4 w-4 accent-[#FF6B00]"
                         />
-                        <span className="text-xs font-bold text-[#5D45FD]">
+                        <span className="text-xs font-bold text-[#FF6B00]">
                           {opt.price === 0 || freeGround
                             ? "Free"
                             : `$${opt.price.toFixed(2)}`}
@@ -346,7 +346,7 @@ export default function CheckoutPage() {
 
             {shippingMethod === "pickup" ? (
               <div className="mt-4 flex items-start gap-3 rounded-2xl border border-[#DFDAFF] bg-[#F7F6FF] p-4">
-                <MapPinIcon size={20} weight="fill" className="mt-0.5 shrink-0 text-[#5D45FD]" />
+                <MapPinIcon size={20} weight="fill" className="mt-0.5 shrink-0 text-[#0077EE]" />
                 <div>
                   <p className="text-sm font-bold text-[#141523]">
                     Catskill Warehouse Pickup
@@ -374,7 +374,7 @@ export default function CheckoutPage() {
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     placeholder="742 Evergreen Terrace, Apt 4B"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                   <p className="ebb-error-msg mt-1 text-xs font-medium text-rose-600">
                     Please enter your street address.
@@ -397,7 +397,7 @@ export default function CheckoutPage() {
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
                     placeholder="Catskill"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
@@ -417,7 +417,7 @@ export default function CheckoutPage() {
                     value={stateCode}
                     onChange={(e) => setStateCode(e.target.value)}
                     placeholder="NY"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
@@ -437,7 +437,7 @@ export default function CheckoutPage() {
                     value={postalCode}
                     onChange={(e) => setPostalCode(e.target.value)}
                     placeholder="12414"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
               </div>
@@ -457,7 +457,7 @@ export default function CheckoutPage() {
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 placeholder="Gate code, leave on covered porch, gift note..."
-                className="mt-1.5 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] p-3 text-sm text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                className="mt-1.5 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] p-3 text-sm text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
               />
             </div>
 
@@ -466,7 +466,7 @@ export default function CheckoutPage() {
                 type="checkbox"
                 checked={billingSame}
                 onChange={(e) => setBillingSame(e.target.checked)}
-                className="h-4 w-4 rounded accent-[#5D45FD]"
+                className="h-4 w-4 rounded accent-[#FF6B00]"
               />
               <span>Billing address is the same as delivery address</span>
             </label>
@@ -476,7 +476,7 @@ export default function CheckoutPage() {
           <section className="rounded-[26px] border border-[#EAECEF] bg-white p-6 shadow-xs">
             <div className="flex items-center justify-between gap-2">
               <div className="flex items-center gap-2.5">
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#5D45FD] text-xs font-bold text-white">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#01143F] text-xs font-bold text-white">
                   3
                 </span>
                 <h3 className="font-display text-lg font-bold text-[#141523]">
@@ -495,7 +495,7 @@ export default function CheckoutPage() {
                 aria-pressed={payMethod === "card"}
                 className={`flex h-11 items-center justify-center gap-2 rounded-2xl border text-xs font-bold transition-all ${
                   payMethod === "card"
-                    ? "border-[#5D45FD] bg-[#EEEBFF] text-[#5D45FD]"
+                    ? "border-[#5D45FD] bg-[#FFF1E5] text-[#FF6B00]"
                     : "border-[#E7E9F2] bg-white text-[#35384B]"
                 }`}
               >
@@ -508,7 +508,7 @@ export default function CheckoutPage() {
                 aria-pressed={payMethod === "express"}
                 className={`flex h-11 items-center justify-center gap-2 rounded-2xl border text-xs font-bold transition-all ${
                   payMethod === "express"
-                    ? "border-[#5D45FD] bg-[#EEEBFF] text-[#5D45FD]"
+                    ? "border-[#5D45FD] bg-[#FFF1E5] text-[#FF6B00]"
                     : "border-[#E7E9F2] bg-white text-[#35384B]"
                 }`}
               >
@@ -537,7 +537,7 @@ export default function CheckoutPage() {
                     value={cardNumber}
                     onChange={(e) => setCardNumber(formatCardNumber(e.target.value))}
                     placeholder="4532 8910 2345 6789"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 font-mono text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 font-mono text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
@@ -559,7 +559,7 @@ export default function CheckoutPage() {
                     value={cardExpiry}
                     onChange={(e) => setCardExpiry(formatExpiry(e.target.value))}
                     placeholder="08/29"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 font-mono text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 font-mono text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
@@ -584,7 +584,7 @@ export default function CheckoutPage() {
                       setCardCvc(e.target.value.replace(/\D/g, "").slice(0, 4))
                     }
                     placeholder="482"
-                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 font-mono text-base text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 font-mono text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
               </div>
@@ -685,12 +685,12 @@ export default function CheckoutPage() {
                       onChange={(e) => setPromoInput(e.target.value)}
                       placeholder="Promo code (WELCOME15)"
                       aria-label="Checkout promo code"
-                      className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-9 pr-3 text-xs text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                      className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-9 pr-3 text-xs text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                     />
                   </div>
                   <button
                     type="submit"
-                    className="h-10 rounded-full border border-[#5D45FD] px-4 text-xs font-bold text-[#5D45FD] hover:bg-[#5D45FD] hover:text-white"
+                    className="h-10 rounded-full border border-[#5D45FD] px-4 text-xs font-bold text-[#FF6B00] hover:bg-[#5D45FD] hover:text-white"
                   >
                     Apply
                   </button>
@@ -737,7 +737,7 @@ export default function CheckoutPage() {
               </div>
               <div className="flex justify-between border-t border-[#ECEEF6] pt-3 text-base font-bold text-[#141523]">
                 <dt>Total Due</dt>
-                <dd className="font-display text-2xl text-[#5D45FD]">
+                <dd className="font-display text-2xl text-[#FF6B00]">
                   ${totals.total.toFixed(2)}
                 </dd>
               </div>

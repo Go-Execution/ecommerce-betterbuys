@@ -25,7 +25,7 @@ export function HomeSections() {
           </h2>
           <Link
             href="/shop"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#5D45FD] hover:underline"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0077EE] hover:underline"
           >
             <span>All departments</span>
             <ArrowRightIcon size={15} weight="bold" />
@@ -41,7 +41,7 @@ export function HomeSections() {
             >
               <Link
                 href={`/shop?category=${dept.slug}`}
-                className="group flex h-full flex-col items-center rounded-[22px] border border-[#EAECEF] bg-white p-3.5 text-center shadow-xs transition-all hover:border-[#CFC9FB] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+                className="group flex h-full flex-col items-center rounded-[22px] border border-[#EAECEF] bg-white p-3.5 text-center shadow-xs transition-all hover:border-[#FFCCA6] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
               >
                 <div className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-2xl bg-[#F3F4F8] p-2.5">
                   <img
@@ -55,7 +55,7 @@ export function HomeSections() {
                     }`}
                   />
                 </div>
-                <h3 className="mt-3 text-sm font-bold text-[#141523] transition-colors group-hover:text-[#5D45FD]">
+                <h3 className="mt-3 text-sm font-bold text-[#141523] transition-colors group-hover:text-[#FF6B00]">
                   {dept.shortName}
                 </h3>
                 <span className="mt-0.5 text-[11px] font-medium text-[#7A7E96]">
@@ -69,7 +69,7 @@ export function HomeSections() {
 
       {/* Single Clean Deal Promo Strip */}
       <section aria-label="Welcome promotion">
-        <div className="flex flex-col items-start justify-between gap-5 rounded-[26px] bg-gradient-to-r from-[#5236FF] via-[#6549FF] to-[#816BFF] p-6 text-white shadow-lg shadow-[#5D45FD]/20 sm:flex-row sm:items-center sm:p-8">
+        <div className="flex flex-col items-start justify-between gap-5 rounded-[26px] bg-gradient-to-r from-[#01143F] via-[#0A2558] to-[#123B88] p-6 text-white shadow-lg shadow-[#01143F]/25 sm:flex-row sm:items-center sm:p-8">
           <div>
             <span className="inline-flex items-center gap-1.5 rounded-full bg-white/20 px-3 py-1 text-xs font-bold backdrop-blur-xs">
               <SparkleIcon size={13} weight="fill" className="text-[#FFD233]" />
@@ -82,14 +82,14 @@ export function HomeSections() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/shop?category=deals"
-              className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FFD233] px-6 text-sm font-bold text-[#141523] shadow-sm transition-transform hover:scale-[1.02] active:scale-[0.98]"
+              className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-6 text-sm font-bold text-white hover:bg-[#E55A00] shadow-sm transition-transform hover:scale-[1.02] active:scale-[0.98]"
             >
               <span>Shop Deals</span>
               <ArrowRightIcon size={16} weight="bold" />
             </Link>
             <Link
               href="/shop"
-              className="inline-flex h-11 items-center rounded-full border border-white/50 bg-white/15 px-6 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-[#5D45FD]"
+              className="inline-flex h-11 items-center rounded-full border border-white/50 bg-white/15 px-6 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-[#01143F]"
             >
               All Products
             </Link>

@@ -47,7 +47,7 @@ function ThankYouContent() {
             initial={reduce ? { scale: 1 } : { scale: 0.4, rotate: -15 }}
             animate={{ scale: 1, rotate: 0 }}
             transition={{ type: "spring", stiffness: 360, damping: 20, delay: 0.1 }}
-            className="relative flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-[#5D45FD] to-[#816BFF] text-white shadow-xl shadow-[#5D45FD]/30"
+            className="relative flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-[#01143F] to-[#0A2558] text-white shadow-xl shadow-[#01143F]/30"
           >
             <CheckCircleIcon size={42} weight="fill" />
             {!reduce && (
@@ -55,12 +55,12 @@ function ThankYouContent() {
                 initial={{ scale: 0.8, opacity: 0.8 }}
                 animate={{ scale: 1.5, opacity: 0 }}
                 transition={{ duration: 1.2, repeat: 2 }}
-                className="absolute inset-0 rounded-3xl border-2 border-[#5D45FD]"
+                className="absolute inset-0 rounded-3xl border-2 border-[#FF6B00]"
               />
             )}
           </motion.div>
 
-          <span className="mt-5 inline-flex items-center gap-1.5 rounded-full bg-[#EEEBFF] px-3.5 py-1 text-xs font-bold text-[#5D45FD]">
+          <span className="mt-5 inline-flex items-center gap-1.5 rounded-full bg-[#FFF1E5] px-3.5 py-1 text-xs font-bold text-[#FF6B00]">
             <SparkleIcon size={14} weight="fill" />
             <span>Order Confirmed</span>
           </span>
@@ -90,7 +90,7 @@ function ThankYouContent() {
                     <div
                       className={`flex h-9 w-9 items-center justify-center rounded-full ${
                         step.active
-                          ? "bg-[#5D45FD] text-white shadow-sm shadow-[#5D45FD]/30"
+                          ? "bg-[#01143F] text-white shadow-sm shadow-[#01143F]/30"
                           : "bg-white text-[#9B9FB5] ring-1 ring-[#E5E7F2]"
                       }`}
                     >
@@ -119,7 +119,7 @@ function ThankYouContent() {
                 <p className="text-[11px] font-bold uppercase tracking-wider text-[#8C90A6]">
                   Order Number
                 </p>
-                <p className="mt-1 font-mono text-lg font-bold text-[#5D45FD]">
+                <p className="mt-1 font-mono text-lg font-bold text-[#FF6B00]">
                   {order.id}
                 </p>
                 <p className="mt-0.5 text-xs text-[#7A7E96]">
@@ -184,7 +184,7 @@ function ThankYouContent() {
                       <div className="min-w-0 flex-1">
                         <Link
                           href={`/product/${item.slug}`}
-                          className="line-clamp-1 text-sm font-semibold text-[#141523] hover:text-[#5D45FD]"
+                          className="line-clamp-1 text-sm font-semibold text-[#141523] hover:text-[#FF6B00]"
                         >
                           {item.name}
                         </Link>
@@ -231,7 +231,7 @@ function ThankYouContent() {
                   </div>
                   <div className="flex justify-between border-t border-[#ECEEF6] pt-2.5 text-base font-bold text-[#141523]">
                     <dt>Total Paid</dt>
-                    <dd className="font-display text-xl text-[#5D45FD]">
+                    <dd className="font-display text-xl text-[#FF6B00]">
                       ${order.total.toFixed(2)}
                     </dd>
                   </div>
@@ -245,14 +245,14 @@ function ThankYouContent() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3 print:hidden">
           <Link
             href="/shop"
-            className="inline-flex h-11 items-center gap-2 rounded-full bg-[#5D45FD] px-7 text-sm font-bold text-white shadow-md shadow-[#5D45FD]/25 hover:bg-[#4B33EC]"
+            className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-7 text-sm font-bold text-white shadow-md shadow-[#FF6B00]/25 hover:bg-[#E55A00]"
           >
             <span>Continue Shopping</span>
             <ArrowRightIcon size={16} weight="bold" />
           </Link>
           <Link
             href="/orders"
-            className="inline-flex h-11 items-center rounded-full border border-[#DFE2EE] bg-white px-6 text-sm font-semibold text-[#141523] hover:border-[#5D45FD] hover:text-[#5D45FD]"
+            className="inline-flex h-11 items-center rounded-full border border-[#DFE2EE] bg-white px-6 text-sm font-semibold text-[#141523] hover:border-[#0077EE] hover:text-[#0077EE]"
           >
             View Order History
           </Link>

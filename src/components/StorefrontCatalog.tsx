@@ -166,10 +166,10 @@ export function StorefrontCatalog({
                 type="button"
                 onClick={() => setFilters((prev) => ({ ...prev, category: cat.slug }))}
                 aria-pressed={active}
-                className={`relative shrink-0 rounded-full px-4 py-2 text-[13.5px] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+                className={`relative shrink-0 rounded-full px-4 py-2 text-[13.5px] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
                   active
                     ? "text-white"
-                    : "border border-[#E7E9F2] bg-white text-[#35384B] hover:border-[#C9C4FA] hover:text-[#5D45FD]"
+                    : "border border-[#E7E9F2] bg-white text-[#35384B] hover:border-[#FFCCA6] hover:text-[#FF6B00]"
                 }`}
               >
                 {active && (
@@ -180,12 +180,12 @@ export function StorefrontCatalog({
                         ? { duration: 0 }
                         : { type: "spring", stiffness: 440, damping: 32 }
                     }
-                    className="absolute inset-0 rounded-full bg-gradient-to-r from-[#5D45FD] to-[#745BFF] shadow-md shadow-[#5D45FD]/25"
+                    className="absolute inset-0 rounded-full bg-gradient-to-r from-[#01143F] to-[#0A2558] shadow-md shadow-[#01143F]/25"
                   />
                 )}
                 <span className="relative z-10 inline-flex items-center gap-1.5">
                   {cat.slug === "deals" && (
-                    <SparkleIcon size={14} weight="fill" className={active ? "text-[#FFD233]" : "text-[#5D45FD]"} />
+                    <SparkleIcon size={14} weight="fill" className={active ? "text-[#FFB300]" : "text-[#0077EE]"} />
                   )}
                   <span>{cat.shortName}</span>
                   <span
@@ -219,7 +219,7 @@ export function StorefrontCatalog({
               {filteredProducts.length} item{filteredProducts.length === 1 ? "" : "s"}
             </span>
             {filters.search.trim() && (
-              <span className="inline-flex items-center gap-1 rounded-full bg-[#EEEBFF] px-2.5 py-0.5 text-xs font-semibold text-[#5D45FD]">
+              <span className="inline-flex items-center gap-1 rounded-full bg-[#EAF3FF] px-2.5 py-0.5 text-xs font-semibold text-[#0077EE]">
                 Search: &ldquo;{filters.search}&rdquo;
                 <button
                   type="button"
@@ -235,7 +235,7 @@ export function StorefrontCatalog({
               <button
                 type="button"
                 onClick={resetAllFilters}
-                className="text-xs font-semibold text-[#5D45FD] hover:underline"
+                className="text-xs font-semibold text-[#0077EE] hover:underline"
               >
                 Reset filters
               </button>
@@ -259,7 +259,7 @@ export function StorefrontCatalog({
                   }
                   placeholder="Filter by keyword..."
                   aria-label="Filter catalog by keyword"
-                  className="h-9 w-48 rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-8 pr-3 text-xs text-[#141523] placeholder:text-[#8C90A6] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                  className="h-9 w-48 rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-8 pr-3 text-xs text-[#141523] placeholder:text-[#8C90A6] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                 />
               </div>
             )}
@@ -270,10 +270,10 @@ export function StorefrontCatalog({
               onClick={() => setMobileFilterOpen(true)}
               className="inline-flex h-9 items-center gap-1.5 rounded-full border border-[#E7E9F2] bg-[#F7F8FC] px-3.5 text-xs font-semibold text-[#141523] lg:hidden"
             >
-              <FadersIcon size={15} weight="bold" className="text-[#5D45FD]" />
+              <FadersIcon size={15} weight="bold" className="text-[#0077EE]" />
               <span>Filters</span>
               {activeFilterCount > 0 && (
-                <span className="flex h-4 min-w-4 items-center justify-center rounded-full bg-[#5D45FD] px-1 text-[10px] font-bold text-white">
+                <span className="flex h-4 min-w-4 items-center justify-center rounded-full bg-[#FF6B00] px-1 text-[10px] font-bold text-white">
                   {activeFilterCount}
                 </span>
               )}
@@ -284,7 +284,7 @@ export function StorefrontCatalog({
               <ArrowsDownUpIcon
                 size={14}
                 weight="bold"
-                className="pointer-events-none absolute left-3 text-[#5D45FD]"
+                className="pointer-events-none absolute left-3 text-[#0077EE]"
               />
               <label htmlFor={`sort-${mode}`} className="visually-hidden">
                 Sort products
@@ -298,7 +298,7 @@ export function StorefrontCatalog({
                     sort: e.target.value as SortOption,
                   }))
                 }
-                className="h-9 cursor-pointer appearance-none rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-8 pr-8 text-xs font-semibold text-[#141523] transition-colors hover:border-[#5D45FD] focus:border-[#5D45FD] focus:outline-none"
+                className="h-9 cursor-pointer appearance-none rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-8 pr-8 text-xs font-semibold text-[#141523] transition-colors hover:border-[#0077EE] focus:border-[#0077EE] focus:outline-none"
               >
                 <option value="featured">Sort: Featured</option>
                 <option value="price-asc">Price: Low to High</option>
@@ -324,7 +324,7 @@ export function StorefrontCatalog({
         <div>
           {displayedProducts.length === 0 ? (
             <div className="flex flex-col items-center justify-center rounded-[26px] border border-[#EAECEF] bg-white px-6 py-16 text-center">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#EEEBFF] text-[#5D45FD]">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#EAF3FF] text-[#0077EE]">
                 <MagnifyingGlassIcon size={28} weight="duotone" />
               </div>
               <h2 className="mt-4 font-display text-xl font-bold text-[#141523]">
@@ -336,7 +336,7 @@ export function StorefrontCatalog({
               <button
                 type="button"
                 onClick={resetAllFilters}
-                className="mt-5 rounded-full bg-[#5D45FD] px-6 py-2.5 text-sm font-semibold text-white shadow-md shadow-[#5D45FD]/25 transition-transform hover:bg-[#4B33EC] active:scale-95"
+                className="mt-5 rounded-full bg-[#FF6B00] px-6 py-2.5 text-sm font-semibold text-white shadow-md shadow-[#FF6B00]/25 transition-transform hover:bg-[#E55A00] active:scale-95"
               >
                 Reset All Filters
               </button>
@@ -369,7 +369,7 @@ export function StorefrontCatalog({
                 <button
                   type="button"
                   onClick={() => setShowAllOnHome(true)}
-                  className="inline-flex h-11 items-center gap-2 rounded-full bg-[#5D45FD] px-7 text-sm font-semibold text-white shadow-lg shadow-[#5D45FD]/25 transition-all hover:bg-[#4B33EC] active:scale-[0.98]"
+                  className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-7 text-sm font-semibold text-white shadow-lg shadow-[#FF6B00]/25 transition-all hover:bg-[#E55A00] active:scale-[0.98]"
                 >
                   <span>Load More Products (+{filteredProducts.length - 9})</span>
                 </button>
@@ -377,14 +377,14 @@ export function StorefrontCatalog({
                 <button
                   type="button"
                   onClick={() => setShowAllOnHome(false)}
-                  className="inline-flex h-11 items-center gap-2 rounded-full border border-[#DFE2EE] bg-white px-6 text-sm font-semibold text-[#141523] transition-colors hover:border-[#5D45FD] hover:text-[#5D45FD]"
+                  className="inline-flex h-11 items-center gap-2 rounded-full border border-[#DFE2EE] bg-white px-6 text-sm font-semibold text-[#141523] transition-colors hover:border-[#0077EE] hover:text-[#0077EE]"
                 >
                   Show Compact Grid
                 </button>
               )}
               <Link
                 href="/shop"
-                className="inline-flex h-11 items-center gap-2 rounded-full border border-[#5D45FD] bg-white px-6 text-sm font-semibold text-[#5D45FD] transition-colors hover:bg-[#EEEBFF]"
+                className="inline-flex h-11 items-center gap-2 rounded-full border border-[#FF6B00] bg-white px-6 text-sm font-semibold text-[#FF6B00] transition-colors hover:bg-[#FFF6F0]"
               >
                 <span>Open Full Shop Page ({PRODUCTS.length} Items)</span>
                 <ArrowRightIcon size={16} weight="bold" />
@@ -437,7 +437,7 @@ export function StorefrontCatalog({
                 <button
                   type="button"
                   onClick={() => setMobileFilterOpen(false)}
-                  className="h-11 w-full rounded-full bg-[#5D45FD] text-sm font-semibold text-white"
+                  className="h-11 w-full rounded-full bg-[#FF6B00] text-sm font-semibold text-white hover:bg-[#E55A00]"
                 >
                   Show {filteredProducts.length} Results
                 </button>

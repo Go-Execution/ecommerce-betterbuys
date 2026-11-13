@@ -84,7 +84,7 @@ export function HomeShowcase() {
           {/* Left Marketplace Intro */}
           <div className="flex flex-col justify-center rounded-[28px] border border-[#E7E9F2] bg-white p-6 shadow-[0_2px_16px_rgba(20,21,35,0.03)] sm:p-9 lg:col-span-5">
             <div>
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-[#EEEBFF] px-3.5 py-1 text-xs font-bold text-[#5D45FD]">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-[#EAF3FF] px-3.5 py-1 text-xs font-bold text-[#0077EE]">
                 <SparkleIcon size={13} weight="fill" />
                 <span>Free Shipping Over ${STORE_INFO.freeShippingThreshold}</span>
               </span>
@@ -100,14 +100,14 @@ export function HomeShowcase() {
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <Link
                   href="/shop"
-                  className="inline-flex h-11 items-center gap-2 rounded-full bg-[#5D45FD] px-6 text-sm font-bold text-white shadow-md shadow-[#5D45FD]/25 transition-all hover:bg-[#4B33EC] active:scale-[0.98]"
+                  className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-6 text-sm font-bold text-white shadow-md shadow-[#FF6B00]/25 transition-all hover:bg-[#E55A00] active:scale-[0.98]"
                 >
                   <span>Shop All Products</span>
                   <ArrowRightIcon size={16} weight="bold" />
                 </Link>
                 <Link
                   href="/shop?category=deals"
-                  className="inline-flex h-11 items-center gap-1.5 rounded-full border border-[#DFE2EE] bg-white px-5 text-sm font-semibold text-[#141523] transition-colors hover:border-[#5D45FD] hover:text-[#5D45FD]"
+                  className="inline-flex h-11 items-center gap-1.5 rounded-full border border-[#DFE2EE] bg-white px-5 text-sm font-semibold text-[#141523] transition-colors hover:border-[#FF6B00] hover:text-[#FF6B00]"
                 >
                   <span>Today&apos;s Deals</span>
                 </Link>
@@ -121,10 +121,10 @@ export function HomeShowcase() {
             <div
               onMouseEnter={() => setHeroPaused(true)}
               onMouseLeave={() => setHeroPaused(false)}
-              className="relative flex flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#5236FF] via-[#664AFF] to-[#7D65FF] p-5 text-white shadow-lg shadow-[#5D45FD]/20 sm:col-span-7"
+              className="relative flex flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#01143F] via-[#0A2558] to-[#123B88] p-5 text-white shadow-lg shadow-[#01143F]/25 sm:col-span-7"
             >
               <div className="relative z-10 flex items-center justify-between gap-2">
-                <span className="inline-flex items-center gap-1 rounded-full bg-[#FFD233] px-3 py-1 text-[11px] font-bold text-[#141523]">
+                <span className="inline-flex items-center gap-1 rounded-full bg-[#FFB300] px-3 py-1 text-[11px] font-bold text-[#01143F]">
                   Top item
                 </span>
 
@@ -138,7 +138,7 @@ export function HomeShowcase() {
                       )
                     }
                     aria-label="Previous featured item"
-                    className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white hover:text-[#5D45FD]"
+                    className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white hover:text-[#01143F]"
                   >
                     <CaretLeftIcon size={14} weight="bold" />
                   </button>
@@ -148,7 +148,7 @@ export function HomeShowcase() {
                       setHeroIdx((prev) => (prev + 1) % heroSpotlights.length)
                     }
                     aria-label="Next featured item"
-                    className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white hover:text-[#5D45FD]"
+                    className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white hover:text-[#01143F]"
                   >
                     <CaretRightIcon size={14} weight="bold" />
                   </button>
@@ -161,7 +161,7 @@ export function HomeShowcase() {
                         : `Save ${currentHero.shortName} to favourites`
                     }
                     aria-pressed={heroSaved}
-                    className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#5D45FD] shadow-xs transition-transform hover:scale-105"
+                    className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#FF6B00] shadow-xs transition-transform hover:scale-105"
                   >
                     <HeartIcon size={15} weight={heroSaved ? "fill" : "bold"} />
                   </button>
@@ -204,7 +204,7 @@ export function HomeShowcase() {
                       type="button"
                       whileTap={reduce ? undefined : { scale: 0.95 }}
                       onClick={() => handleQuickAdd(currentHero)}
-                      className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-white px-4 text-xs font-bold text-[#5D45FD] shadow-sm transition-transform hover:scale-[1.03]"
+                      className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-[#FF6B00] px-4 text-xs font-bold text-white hover:bg-[#E55A00] shadow-sm transition-transform hover:scale-[1.03]"
                     >
                       {quickAddedId === currentHero.id ? (
                         <>
@@ -245,7 +245,7 @@ export function HomeShowcase() {
                   <motion.article
                     key={item.id}
                     whileHover={reduce ? undefined : { y: -3 }}
-                    className="group flex flex-col justify-between rounded-[24px] border border-[#EAECEF] bg-white p-3 shadow-xs transition-shadow hover:border-[#CFC9FB] hover:shadow-md sm:flex-row sm:items-center sm:gap-3"
+                    className="group flex flex-col justify-between rounded-[24px] border border-[#EAECEF] bg-white p-3 shadow-xs transition-shadow hover:border-[#FFCCA6] hover:shadow-md sm:flex-row sm:items-center sm:gap-3"
                     data-agent={`home-hero-card-${item.id}`}
                   >
                     <Link
@@ -268,7 +268,7 @@ export function HomeShowcase() {
                         )}
                         <Link
                           href={`/product/${item.slug}`}
-                          className="mt-1 block line-clamp-2 text-xs font-bold leading-snug text-[#141523] group-hover:text-[#5D45FD] sm:text-sm"
+                          className="mt-1 block line-clamp-2 text-xs font-bold leading-snug text-[#141523] group-hover:text-[#FF6B00] sm:text-sm"
                         >
                           {item.shortName}
                         </Link>
@@ -285,7 +285,7 @@ export function HomeShowcase() {
                           className={`inline-flex h-8 w-8 items-center justify-center rounded-full border transition-colors ${
                             isAdded
                               ? "border-emerald-600 bg-emerald-600 text-white"
-                              : "border-[#5D45FD] bg-white text-[#5D45FD] hover:bg-[#5D45FD] hover:text-white"
+                              : "border-[#FF6B00] bg-white text-[#FF6B00] hover:bg-[#FF6B00] hover:text-white"
                           }`}
                         >
                           {isAdded ? (
@@ -320,7 +320,7 @@ export function HomeShowcase() {
                 ? "/shop"
                 : `/shop?category=${activeCollection}`
             }
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#5D45FD] hover:underline"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0077EE] hover:underline"
           >
             <span>View all in {activeCategoryMeta.shortName} ({activeCategoryMeta.count})</span>
             <ArrowRightIcon size={15} weight="bold" />
@@ -340,14 +340,14 @@ export function HomeShowcase() {
                 className={`relative shrink-0 rounded-full px-4 py-2 text-xs font-semibold transition-colors ${
                   active
                     ? "text-white"
-                    : "border border-[#E7E9F2] bg-white text-[#35384B] hover:border-[#D5D1FC] hover:text-[#5D45FD]"
+                    : "border border-[#E7E9F2] bg-white text-[#35384B] hover:border-[#FFCCA6] hover:text-[#FF6B00]"
                 }`}
               >
                 {active && (
                   <motion.span
                     layoutId={reduce ? undefined : "home-collection-pill"}
                     transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                    className="absolute inset-0 rounded-full bg-[#5D45FD] shadow-sm shadow-[#5D45FD]/25"
+                    className="absolute inset-0 rounded-full bg-gradient-to-r from-[#01143F] to-[#0A2558] shadow-sm shadow-[#01143F]/25"
                   />
                 )}
                 <span className="relative z-10">{cat.shortName}</span>
@@ -376,7 +376,7 @@ export function HomeShowcase() {
         <div className="mt-7 flex justify-center">
           <Link
             href="/shop"
-            className="inline-flex h-11 items-center gap-2 rounded-full border border-[#5D45FD] bg-white px-7 text-sm font-bold text-[#5D45FD] transition-colors hover:bg-[#5D45FD] hover:text-white"
+            className="inline-flex h-11 items-center gap-2 rounded-full border border-[#FF6B00] bg-white px-7 text-sm font-bold text-[#FF6B00] transition-colors hover:bg-[#FF6B00] hover:text-white"
           >
             <span>Browse Full Storefront ({PRODUCTS.length} Items)</span>
             <ArrowRightIcon size={16} weight="bold" />

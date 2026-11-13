@@ -20,7 +20,7 @@ export function Footer() {
               Everyday home, kitchen, fitness, pet, garden, and tech essentials
               curated by Joseph Casanova and shipped quickly from New York.
             </p>
-            <div className="inline-flex items-center gap-2 rounded-full bg-[#F4F5FA] px-3.5 py-1.5 text-xs font-semibold text-[#5D45FD]">
+            <div className="inline-flex items-center gap-2 rounded-full bg-[#F4F5FA] px-3.5 py-1.5 text-xs font-semibold text-[#FF6B00]">
               <ShieldCheckIcon size={16} weight="fill" />
               <span>Use code WELCOME15 for 15% off</span>
             </div>
@@ -36,7 +36,7 @@ export function Footer() {
                 <li key={cat.slug}>
                   <Link
                     href={`/shop?category=${cat.slug}`}
-                    className="transition-colors hover:text-[#5D45FD]"
+                    className="transition-colors hover:text-[#FF6B00]"
                   >
                     {cat.name}
                   </Link>
@@ -52,32 +52,32 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-2.5 text-sm font-medium text-[#35384B]">
               <li>
-                <Link href="/shop" className="transition-colors hover:text-[#5D45FD]">
+                <Link href="/shop" className="transition-colors hover:text-[#FF6B00]">
                   All Products (31)
                 </Link>
               </li>
               <li>
-                <Link href="/shop?category=deals" className="transition-colors hover:text-[#5D45FD]">
+                <Link href="/shop?category=deals" className="transition-colors hover:text-[#FF6B00]">
                   Current Deals
                 </Link>
               </li>
               <li>
-                <Link href="/cart" className="transition-colors hover:text-[#5D45FD]">
+                <Link href="/cart" className="transition-colors hover:text-[#FF6B00]">
                   Shopping Cart
                 </Link>
               </li>
               <li>
-                <Link href="/checkout" className="transition-colors hover:text-[#5D45FD]">
+                <Link href="/checkout" className="transition-colors hover:text-[#FF6B00]">
                   Checkout
                 </Link>
               </li>
               <li>
-                <Link href="/favourites" className="transition-colors hover:text-[#5D45FD]">
+                <Link href="/favourites" className="transition-colors hover:text-[#FF6B00]">
                   Saved Favourites
                 </Link>
               </li>
               <li>
-                <Link href="/orders" className="transition-colors hover:text-[#5D45FD]">
+                <Link href="/orders" className="transition-colors hover:text-[#FF6B00]">
                   Track Orders
                 </Link>
               </li>
@@ -91,14 +91,14 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-[#5C6078]">
               <li className="flex items-start gap-2.5">
-                <MapPinIcon size={18} weight="bold" className="mt-0.5 shrink-0 text-[#5D45FD]" />
+                <MapPinIcon size={18} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
                 <span>{STORE_INFO.address}</span>
               </li>
               <li className="flex items-center gap-2.5">
-                <EnvelopeSimpleIcon size={18} weight="bold" className="shrink-0 text-[#5D45FD]" />
+                <EnvelopeSimpleIcon size={18} weight="bold" className="shrink-0 text-[#0077EE]" />
                 <a
                   href={`mailto:${STORE_INFO.email}`}
-                  className="font-medium text-[#141523] hover:text-[#5D45FD]"
+                  className="font-medium text-[#141523] hover:text-[#FF6B00]"
                 >
                   {STORE_INFO.email}
                 </a>
@@ -107,7 +107,7 @@ export function Footer() {
                 <EnvelopeSimpleIcon size={18} weight="bold" className="shrink-0 text-[#8C90A6]" />
                 <a
                   href={`mailto:${STORE_INFO.altEmail}`}
-                  className="text-xs font-medium text-[#5C6078] hover:text-[#5D45FD]"
+                  className="text-xs font-medium text-[#5C6078] hover:text-[#FF6B00]"
                 >
                   {STORE_INFO.altEmail}
                 </a>
@@ -115,7 +115,7 @@ export function Footer() {
             </ul>
             <Link
               href="/contact"
-              className="mt-4 inline-flex items-center rounded-full border border-[#E7E9F2] bg-[#FAFBFD] px-4 py-2 text-xs font-semibold text-[#141523] transition-colors hover:border-[#5D45FD] hover:text-[#5D45FD]"
+              className="mt-4 inline-flex items-center rounded-full border border-[#E7E9F2] bg-[#FAFBFD] px-4 py-2 text-xs font-semibold text-[#141523] transition-colors hover:border-[#FF6B00] hover:text-[#FF6B00]"
             >
               Contact Support & Pickup Info
             </Link>

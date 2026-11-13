@@ -132,7 +132,7 @@ export function Navbar() {
                   autoCorrect="off"
                   autoCapitalize="none"
                   spellCheck={false}
-                  className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F4F5FA] pl-10 pr-12 text-sm text-[#141523] placeholder:text-[#8C90A6] transition-all focus:border-[#5D45FD] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#5D45FD]/20"
+                  className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F4F5FA] pl-10 pr-12 text-sm text-[#141523] placeholder:text-[#8C90A6] transition-all focus:border-[#0077EE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#0077EE]/20"
                 />
                 {!searchQuery ? (
                   <kbd className="pointer-events-none absolute right-3 top-1/2 hidden -translate-y-1/2 rounded-md border border-[#DFE2EE] bg-white px-1.5 py-0.5 text-[10px] font-semibold text-[#8C90A6] lg:inline-block">
@@ -169,7 +169,7 @@ export function Navbar() {
                             <Link
                               href={`/product/${item.slug}`}
                               onClick={() => setSearchFocused(false)}
-                              className="flex items-center gap-3 rounded-xl p-2 transition-colors hover:bg-[#F5F6FA] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+                              className="flex items-center gap-3 rounded-xl p-2 transition-colors hover:bg-[#F5F6FA] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
                             >
                               <div className="h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-[#F3F4F8] p-1">
                                 <img
@@ -186,7 +186,7 @@ export function Navbar() {
                                   {item.category} · {item.brand}
                                 </p>
                               </div>
-                              <span className="shrink-0 text-sm font-bold text-[#5D45FD]">
+                              <span className="shrink-0 text-sm font-bold text-[#FF6B00]">
                                 ${item.price.toFixed(2)}
                               </span>
                             </Link>
@@ -196,7 +196,7 @@ export function Navbar() {
                       <button
                         type="button"
                         onClick={handleSearchSubmit}
-                        className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-xl bg-[#F5F6FA] py-2 text-xs font-semibold text-[#5D45FD] transition-colors hover:bg-[#EEEBFF]"
+                        className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-xl bg-[#F5F6FA] py-2 text-xs font-semibold text-[#FF6B00] transition-colors hover:bg-[#EAF3FF]"
                       >
                         <span>View all matches in Shop</span>
                         <ArrowRightIcon size={14} weight="bold" />
@@ -217,9 +217,9 @@ export function Navbar() {
         <nav aria-label="Main navigation" className="flex items-center gap-1.5 sm:gap-2.5">
           <Link
             href="/shop"
-            className={`hidden md:inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+            className={`hidden md:inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
               pathname === "/shop"
-                ? "bg-[#EEEBFF] text-[#5D45FD]"
+                ? "bg-[#EAF3FF] text-[#0077EE] font-semibold"
                 : "text-[#35384B] hover:bg-[#F4F5FA] hover:text-[#141523]"
             }`}
           >
@@ -229,9 +229,9 @@ export function Navbar() {
 
           <Link
             href="/orders"
-            className={`relative hidden sm:inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+            className={`relative hidden sm:inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
               pathname === "/orders"
-                ? "bg-[#EEEBFF] text-[#5D45FD]"
+                ? "bg-[#EAF3FF] text-[#0077EE] font-semibold"
                 : "text-[#35384B] hover:bg-[#F4F5FA] hover:text-[#141523]"
             }`}
           >
@@ -246,9 +246,9 @@ export function Navbar() {
 
           <Link
             href="/favourites"
-            className={`relative inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+            className={`relative inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
               pathname === "/favourites"
-                ? "bg-[#EEEBFF] text-[#5D45FD]"
+                ? "bg-[#EAF3FF] text-[#0077EE] font-semibold"
                 : "text-[#35384B] hover:bg-[#F4F5FA] hover:text-[#141523]"
             }`}
             aria-label={`Favourites (${favourites.length})`}
@@ -256,11 +256,11 @@ export function Navbar() {
             <HeartIcon
               size={19}
               weight={favourites.length > 0 || pathname === "/favourites" ? "fill" : "regular"}
-              className={favourites.length > 0 ? "text-[#5D45FD]" : ""}
+              className={favourites.length > 0 ? "text-[#FF6B00]" : ""}
             />
             <span className="hidden lg:inline">Favourites</span>
             {favourites.length > 0 && (
-              <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[#5D45FD] px-1 text-[10px] font-bold text-white">
+              <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[#FF6B00] px-1 text-[10px] font-bold text-white">
                 {favourites.length}
               </span>
             )}
@@ -273,7 +273,7 @@ export function Navbar() {
             onClick={() => setIsCartOpen(true)}
             aria-label={`Open shopping cart with ${totals.itemCount} items`}
             data-agent="navbar-cart-button"
-            className="relative inline-flex items-center gap-2 rounded-full border border-[#E7E9F2] bg-white px-3.5 py-2 text-sm font-semibold text-[#141523] shadow-xs transition-all hover:border-[#5D45FD] hover:bg-[#F7F6FF] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+            className="relative inline-flex items-center gap-2 rounded-full border border-[#E7E9F2] bg-white px-3.5 py-2 text-sm font-semibold text-[#141523] shadow-xs transition-all hover:border-[#FF6B00] hover:bg-[#FFF6F0] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
           >
             <span className="relative">
               <BasketIcon size={19} weight="bold" className="text-[#141523]" />
@@ -294,7 +294,7 @@ export function Navbar() {
             </span>
             <span>Cart</span>
             {totals.itemCount > 0 && (
-              <span className="hidden sm:inline text-xs font-bold text-[#5D45FD]">
+              <span className="hidden sm:inline text-xs font-bold text-[#FF6B00]">
                 ${totals.subtotal.toFixed(0)}
               </span>
             )}
@@ -306,7 +306,7 @@ export function Navbar() {
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileMenuOpen}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#E7E9F2] bg-white text-[#141523] md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#E7E9F2] bg-white text-[#141523] md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
           >
             {mobileMenuOpen ? <XIcon size={19} weight="bold" /> : <ListIcon size={19} weight="bold" />}
           </button>
@@ -334,7 +334,7 @@ export function Navbar() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search products..."
                 aria-label="Search products mobile"
-                className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F4F5FA] pl-10 pr-4 text-sm text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F4F5FA] pl-10 pr-4 text-sm text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
               />
             </form>
             <div className="grid grid-cols-2 gap-2">
@@ -353,7 +353,7 @@ export function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`rounded-xl px-3.5 py-2.5 text-sm font-semibold transition-colors ${
                     pathname === link.href
-                      ? "bg-[#EEEBFF] text-[#5D45FD]"
+                      ? "bg-[#EAF3FF] text-[#0077EE] font-semibold"
                       : "bg-[#F4F5FA] text-[#141523] hover:bg-[#EAECEF]"
                   }`}
                 >

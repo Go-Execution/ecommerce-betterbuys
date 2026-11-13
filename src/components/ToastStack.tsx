@@ -42,7 +42,7 @@ export function ToastStack() {
                 />
               </div>
             ) : (
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#EEEBFF] text-[#5D45FD]">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#FFF1E5] text-[#FF6B00]">
                 {toast.type === "fav" ? (
                   <HeartIcon size={20} weight="fill" />
                 ) : toast.type === "success" ? (
@@ -66,14 +66,14 @@ export function ToastStack() {
                       dismissToast(toast.id);
                       setIsCartOpen(true);
                     }}
-                    className="text-xs font-semibold text-[#5D45FD] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+                    className="text-xs font-semibold text-[#0077EE] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
                   >
                     Open Cart
                   </button>
                   <Link
                     href="/checkout"
                     onClick={() => dismissToast(toast.id)}
-                    className="text-xs font-semibold text-[#141523] hover:text-[#5D45FD]"
+                    className="text-xs font-semibold text-[#141523] hover:text-[#FF6B00]"
                   >
                     Checkout
                   </Link>
@@ -85,7 +85,7 @@ export function ToastStack() {
               type="button"
               onClick={() => dismissToast(toast.id)}
               aria-label="Dismiss notification"
-              className="rounded-lg p-1 text-[#8C90A6] transition-colors hover:bg-[#F3F4F8] hover:text-[#141523] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+              className="rounded-lg p-1 text-[#8C90A6] transition-colors hover:bg-[#F3F4F8] hover:text-[#141523] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
             >
               <XIcon size={16} weight="bold" />
             </button>

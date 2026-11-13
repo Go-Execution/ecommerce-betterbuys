@@ -44,7 +44,7 @@ export default function ContactPage() {
 
           <div className="space-y-3 rounded-[24px] border border-[#EAECEF] bg-white p-5 shadow-xs">
             <div className="flex items-start gap-3">
-              <MapPinIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#5D45FD]" />
+              <MapPinIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#8C90A6]">
                   Fulfillment & Pickup Address
@@ -56,18 +56,18 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-start gap-3 border-t border-[#F3F4F8] pt-3">
-              <EnvelopeSimpleIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#5D45FD]" />
+              <EnvelopeSimpleIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#8C90A6]">
                   Direct Email
                 </p>
                 <p className="mt-0.5 text-sm font-semibold text-[#141523]">
-                  <a href={`mailto:${STORE_INFO.email}`} className="hover:text-[#5D45FD]">
+                  <a href={`mailto:${STORE_INFO.email}`} className="hover:text-[#FF6B00]">
                     {STORE_INFO.email}
                   </a>
                 </p>
                 <p className="text-xs text-[#5C6078]">
-                  <a href={`mailto:${STORE_INFO.altEmail}`} className="hover:text-[#5D45FD]">
+                  <a href={`mailto:${STORE_INFO.altEmail}`} className="hover:text-[#FF6B00]">
                     {STORE_INFO.altEmail}
                   </a>
                 </p>
@@ -75,7 +75,7 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-start gap-3 border-t border-[#F3F4F8] pt-3">
-              <TruckIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#5D45FD]" />
+              <TruckIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#8C90A6]">
                   Dispatch Window
@@ -89,7 +89,7 @@ export default function ContactPage() {
 
           <Link
             href="/shop"
-            className="inline-flex h-11 items-center rounded-full border border-[#5D45FD] bg-white px-6 text-sm font-semibold text-[#5D45FD] hover:bg-[#EEEBFF]"
+            className="inline-flex h-11 items-center rounded-full border border-[#0077EE] bg-white px-6 text-sm font-semibold text-[#0077EE] hover:bg-[#EAF3FF]"
           >
             Back to Storefront
           </Link>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                 <button
                   type="button"
                   onClick={() => setSent(false)}
-                  className="mt-6 rounded-full bg-[#5D45FD] px-6 py-2.5 text-xs font-bold text-white"
+                  className="mt-6 rounded-full bg-[#FF6B00] px-6 py-2.5 text-xs font-bold text-white"
                 >
                   Send Another Message
                 </button>
@@ -137,7 +137,7 @@ export default function ContactPage() {
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       placeholder="Taylor Brooks"
-                      className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                      className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                     />
                   </div>
                   <div>
@@ -155,7 +155,7 @@ export default function ContactPage() {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="you@example.com"
-                      className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                      className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                     />
                   </div>
                 </div>
@@ -173,7 +173,7 @@ export default function ContactPage() {
                     value={orderRef}
                     onChange={(e) => setOrderRef(e.target.value)}
                     placeholder="EBB-123456"
-                    className="mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
@@ -191,13 +191,13 @@ export default function ContactPage() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder="How can we help with your order or product question?"
-                    className="ebb-input mt-1.5 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] p-4 text-base focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                    className="ebb-input mt-1.5 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] p-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="inline-flex h-12 items-center gap-2 rounded-full bg-[#5D45FD] px-7 text-sm font-bold text-white shadow-md shadow-[#5D45FD]/25 transition-all hover:bg-[#4B33EC] active:scale-[0.98]"
+                  className="inline-flex h-12 items-center gap-2 rounded-full bg-[#FF6B00] px-7 text-sm font-bold text-white shadow-md shadow-[#FF6B00]/25 transition-all hover:bg-[#E55A00] active:scale-[0.98]"
                 >
                   <PaperPlaneTiltIcon size={17} weight="bold" />
                   <span>Send Message</span>

@@ -91,7 +91,7 @@ export function CartDrawer() {
             {/* Header */}
             <div className="flex items-center justify-between border-b border-[#ECEEF6] px-5 py-4">
               <div className="flex items-center gap-2.5">
-                <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#EEEBFF] text-[#5D45FD]">
+                <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#FFF1E5] text-[#FF6B00]">
                   <BasketIcon size={19} weight="bold" />
                 </span>
                 <div>
@@ -109,7 +109,7 @@ export function CartDrawer() {
                 type="button"
                 onClick={() => setIsCartOpen(false)}
                 aria-label="Close cart drawer"
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-[#E7E9F2] text-[#5C6078] transition-colors hover:bg-[#F4F5FA] hover:text-[#141523] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-[#E7E9F2] text-[#5C6078] transition-colors hover:bg-[#F4F5FA] hover:text-[#141523] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
               >
                 <XIcon size={18} weight="bold" />
               </button>
@@ -118,7 +118,7 @@ export function CartDrawer() {
             {/* Free Shipping Progress */}
             <div className="border-b border-[#ECEEF6] bg-[#F8F8FD] px-5 py-3">
               <div className="flex items-center gap-2 text-xs font-semibold text-[#141523]">
-                <TruckIcon size={16} weight="bold" className="text-[#5D45FD]" />
+                <TruckIcon size={16} weight="bold" className="text-[#0077EE]" />
                 {totals.freeShippingRemaining === 0 && totals.itemCount > 0 ? (
                   <span className="text-emerald-700">
                     Free Ground Shipping unlocked!
@@ -126,7 +126,7 @@ export function CartDrawer() {
                 ) : (
                   <span>
                     Add{" "}
-                    <strong className="text-[#5D45FD]">
+                    <strong className="text-[#0077EE]">
                       ${totals.freeShippingRemaining.toFixed(2)}
                     </strong>{" "}
                     for free ground shipping (orders ${STORE_INFO.freeShippingThreshold}+)
@@ -138,7 +138,7 @@ export function CartDrawer() {
                   className={`h-full w-full origin-left rounded-full ${
                     totals.freeShippingRemaining === 0 && totals.itemCount > 0
                       ? "bg-emerald-500"
-                      : "bg-gradient-to-r from-[#5D45FD] to-[#8774FF]"
+                      : "bg-gradient-to-r from-[#0077EE] via-[#048BE3] to-[#FF6B00]"
                   }`}
                   initial={{ scaleX: 0 }}
                   animate={{ scaleX: totals.freeShippingProgress / 100 }}
@@ -151,7 +151,7 @@ export function CartDrawer() {
             <div className="flex-1 overflow-y-auto px-5 py-4">
               {cart.length === 0 ? (
                 <div className="flex flex-col items-center py-8 text-center">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#F4F5FA] text-[#5D45FD]">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#EAF3FF] text-[#0077EE]">
                     <BasketIcon size={30} weight="duotone" />
                   </div>
                   <h3 className="mt-4 font-display text-lg font-bold text-[#141523]">
@@ -179,14 +179,14 @@ export function CartDrawer() {
                           <p className="truncate text-xs font-semibold text-[#141523]">
                             {item.shortName}
                           </p>
-                          <p className="text-xs font-bold text-[#5D45FD]">
+                          <p className="text-xs font-bold text-[#FF6B00]">
                             ${item.price.toFixed(2)}
                           </p>
                         </div>
                         <button
                           type="button"
                           onClick={() => addToCart(item, 1)}
-                          className="rounded-full bg-[#5D45FD] px-3 py-1.5 text-xs font-semibold text-white transition-transform hover:bg-[#4B33EC] active:scale-95"
+                          className="rounded-full bg-[#FF6B00] px-3 py-1.5 text-xs font-semibold text-white transition-transform hover:bg-[#E55A00] active:scale-95"
                         >
                           + Add
                         </button>
@@ -231,7 +231,7 @@ export function CartDrawer() {
                               <Link
                                 href={`/product/${product.slug}`}
                                 onClick={() => setIsCartOpen(false)}
-                                className="line-clamp-2 text-sm font-semibold leading-snug text-[#141523] hover:text-[#5D45FD]"
+                                className="line-clamp-2 text-sm font-semibold leading-snug text-[#141523] hover:text-[#FF6B00]"
                               >
                                 {product.shortName}
                               </Link>
@@ -334,12 +334,12 @@ export function CartDrawer() {
                           onChange={(e) => setPromoInput(e.target.value)}
                           placeholder="Promo code (BETTER10)"
                           aria-label="Promo code"
-                          className="h-9 w-full rounded-full border border-[#E5E7F2] bg-white pl-8 pr-3 text-xs text-[#141523] placeholder:text-[#8C90A6] focus:border-[#5D45FD] focus:outline-none"
+                          className="h-9 w-full rounded-full border border-[#E5E7F2] bg-white pl-8 pr-3 text-xs text-[#141523] placeholder:text-[#8C90A6] focus:border-[#0077EE] focus:outline-none"
                         />
                       </div>
                       <button
                         type="submit"
-                        className="h-9 rounded-full border border-[#5D45FD] px-4 text-xs font-semibold text-[#5D45FD] transition-colors hover:bg-[#5D45FD] hover:text-white"
+                        className="h-9 rounded-full border border-[#0077EE] px-4 text-xs font-semibold text-[#0077EE] transition-colors hover:bg-[#0077EE] hover:text-white"
                       >
                         Apply
                       </button>
@@ -389,14 +389,14 @@ export function CartDrawer() {
                   <Link
                     href="/cart"
                     onClick={() => setIsCartOpen(false)}
-                    className="flex h-11 items-center justify-center rounded-full border border-[#DFE2EE] bg-white text-sm font-semibold text-[#141523] transition-colors hover:border-[#5D45FD] hover:text-[#5D45FD]"
+                    className="flex h-11 items-center justify-center rounded-full border border-[#DFE2EE] bg-white text-sm font-semibold text-[#141523] transition-colors hover:border-[#0077EE] hover:text-[#FF6B00]"
                   >
                     View Cart
                   </Link>
                   <Link
                     href="/checkout"
                     onClick={() => setIsCartOpen(false)}
-                    className="flex h-11 items-center justify-center gap-1.5 rounded-full bg-[#5D45FD] text-sm font-semibold text-white shadow-md shadow-[#5D45FD]/25 transition-all hover:bg-[#4B33EC] active:scale-[0.98]"
+                    className="flex h-11 items-center justify-center gap-1.5 rounded-full bg-[#FF6B00] text-sm font-semibold text-white shadow-md shadow-[#FF6B00]/25 transition-all hover:bg-[#E55A00] active:scale-[0.98]"
                   >
                     <span>Checkout</span>
                     <ArrowRightIcon size={16} weight="bold" />

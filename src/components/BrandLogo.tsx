@@ -10,7 +10,7 @@ export function BrandLogo({ compact = false }: BrandLogoProps) {
   return (
     <Link
       href="/"
-      className="group inline-flex items-center gap-2.5 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] focus-visible:ring-offset-2"
+      className="group inline-flex items-center gap-2.5 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] focus-visible:ring-offset-2"
       aria-label="Ecommerce Better Buys LLC Home"
     >
       {compact ? (

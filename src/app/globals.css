@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 :root {
+  --brand-navy: #01143f;
+  --brand-navy-light: #0a2558;
+  --brand-blue: #0077ee;
+  --brand-blue-soft: #eaf3ff;
   --bg-canvas: #f4f5fa;
   --bg-surface: #ffffff;
   --bg-studio: #f1f3f9;
@@ -8,12 +12,12 @@
   --text-secondary: #5c6078;
   --text-muted: #8c90a6;
   --border-subtle: #e7e9f2;
-  --accent-indigo: #5d45fd;
-  --accent-indigo-hover: #4b33ec;
-  --accent-indigo-soft: #eeebff;
+  --brand-orange: #ff6b00;
+  --brand-orange-hover: #e55a00;
+  --brand-orange-soft: #fff1e5;
   --accent-gold: #ffd233;
   --accent-coral: #ff5a36;
-  --brand-color: #5d45fd;
+  --brand-color: #ff6b00;
   color-scheme: light;
 }
 
@@ -45,7 +49,7 @@ body {
 }
 
 ::selection {
-  background-color: rgba(93, 69, 253, 0.16);
+  background-color: rgba(255, 107, 0, 0.18);
   color: #141523;
 }
 
@@ -121,9 +125,9 @@ input[type="range"].ebb-range:focus-visible::-webkit-slider-thumb {
 }
 
 /* Brand-Consistent Checkbox fallback when accent-color is unsupported */
-@supports not (accent-color: #5d45fd) {
+@supports not (accent-color: #ff6b00) {
   input[type="checkbox"].ebb-checkbox {
-    accent-color: #5d45fd;
+    accent-color: #ff6b00;
   }
 }
 

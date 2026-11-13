@@ -53,7 +53,7 @@ export function ProductCard({
         exit={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
         transition={{ duration: 0.35, delay: Math.min(index * 0.04, 0.25) }}
         whileHover={reduce ? undefined : { y: -4 }}
-        className="group relative flex flex-col justify-between overflow-hidden rounded-[24px] bg-gradient-to-br from-[#5236FF] via-[#664AFF] to-[#7D65FF] p-4 text-white shadow-lg shadow-[#5D45FD]/25"
+        className="group relative flex flex-col justify-between overflow-hidden rounded-[24px] bg-gradient-to-br from-[#01143F] via-[#0A2558] to-[#123B88] p-4 text-white shadow-lg shadow-[#01143F]/25"
         data-agent={`product-card-spotlight-${product.id}`}
       >
         {/* Top Row: Spotlight tag & Favourite heart */}
@@ -67,7 +67,7 @@ export function ProductCard({
             onClick={handleFav}
             aria-label={saved ? `Remove ${product.name} from favourites` : `Save ${product.name} to favourites`}
             aria-pressed={saved}
-            className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-[#5D45FD] shadow-sm transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-[#FF6B00] shadow-sm transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
           >
             <HeartIcon size={18} weight={saved ? "fill" : "bold"} />
           </motion.button>
@@ -131,7 +131,7 @@ export function ProductCard({
               type="button"
               whileTap={reduce ? undefined : { scale: 0.95 }}
               onClick={handleAdd}
-              className="inline-flex h-9 items-center gap-2 rounded-full border border-white/70 bg-white/15 px-5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white hover:text-[#5D45FD] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="inline-flex h-9 items-center gap-2 rounded-full border border-white/70 bg-white/15 px-5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-[#FF6B00] hover:text-white hover:border-[#FF6B00] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
               {justAdded ? (
                 <>
@@ -159,14 +159,14 @@ export function ProductCard({
       exit={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
       transition={{ duration: 0.35, delay: Math.min(index * 0.035, 0.25) }}
       whileHover={reduce ? undefined : { y: -4 }}
-      className="group relative flex flex-col justify-between rounded-[24px] border border-[#EAECEF] bg-white p-2.5 shadow-[0_2px_12px_rgba(20,21,35,0.03)] transition-shadow duration-300 hover:border-[#D5D1FC] hover:shadow-[0_14px_30px_rgba(93,69,253,0.10)]"
+      className="group relative flex flex-col justify-between rounded-[24px] border border-[#EAECEF] bg-white p-2.5 shadow-[0_2px_12px_rgba(20,21,35,0.03)] transition-shadow duration-300 hover:border-[#FFCCA6] hover:shadow-[0_14px_30px_rgba(255,107,0,0.12)]"
       data-agent={`product-card-${product.id}`}
     >
       {/* Studio Image Tray */}
       <div className="relative">
         <Link
           href={`/product/${product.slug}`}
-          className="block aspect-[4/3] w-full overflow-hidden rounded-[18px] bg-[#F3F4F8] p-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+          className="block aspect-[4/3] w-full overflow-hidden rounded-[18px] bg-[#F3F4F8] p-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
         >
           <img
             src={product.image}
@@ -187,10 +187,10 @@ export function ProductCard({
           onClick={handleFav}
           aria-label={saved ? `Remove ${product.name} from favourites` : `Save ${product.name} to favourites`}
           aria-pressed={saved}
-          className={`absolute right-2.5 top-2.5 flex h-9 w-9 items-center justify-center rounded-full border shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+          className={`absolute right-2.5 top-2.5 flex h-9 w-9 items-center justify-center rounded-full border shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
             saved
-              ? "border-[#5D45FD] bg-[#5D45FD] text-white"
-              : "border-[#E7E9F2] bg-white/95 text-[#5D45FD] hover:bg-[#EEEBFF]"
+              ? "border-[#FF6B00] bg-[#FF6B00] text-white"
+              : "border-[#E7E9F2] bg-white/95 text-[#0077EE] hover:bg-[#EAF3FF]"
           }`}
         >
           <HeartIcon size={17} weight={saved ? "fill" : "bold"} />
@@ -216,7 +216,7 @@ export function ProductCard({
         <div>
           <Link
             href={`/product/${product.slug}`}
-            className="line-clamp-2 text-[14.5px] font-semibold leading-snug text-[#141523] transition-colors hover:text-[#5D45FD] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+            className="line-clamp-2 text-[14.5px] font-semibold leading-snug text-[#141523] transition-colors hover:text-[#FF6B00] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
           >
             {product.shortName}
           </Link>
@@ -241,10 +241,10 @@ export function ProductCard({
             whileTap={reduce ? undefined : { scale: 0.95 }}
             onClick={handleAdd}
             aria-label={`Add ${product.name} to cart for $${product.price.toFixed(2)}`}
-            className={`inline-flex h-9 items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] focus-visible:ring-offset-1 ${
+            className={`inline-flex h-9 items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] focus-visible:ring-offset-1 ${
               justAdded
                 ? "border-emerald-600 bg-emerald-600 text-white shadow-md shadow-emerald-600/20"
-                : "border-[#5D45FD] bg-white text-[#5D45FD] hover:bg-[#5D45FD] hover:text-white hover:shadow-md hover:shadow-[#5D45FD]/25"
+                : "border-[#FF6B00] bg-white text-[#FF6B00] hover:bg-[#FF6B00] hover:text-white hover:shadow-md hover:shadow-[#FF6B00]/25"
             }`}
           >
             {justAdded ? (

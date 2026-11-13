@@ -83,7 +83,7 @@ export default function CartPage() {
 
       {cart.length === 0 ? (
         <div className="rounded-[28px] border border-[#EAECEF] bg-white p-8 text-center shadow-sm sm:p-12">
-          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#EEEBFF] text-[#5D45FD]">
+          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#FFF1E5] text-[#FF6B00]">
             <BasketIcon size={32} weight="duotone" />
           </div>
           <h2 className="mt-4 font-display text-2xl font-bold text-[#141523]">
@@ -95,7 +95,7 @@ export default function CartPage() {
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
               href="/shop"
-              className="inline-flex h-11 items-center gap-2 rounded-full bg-[#5D45FD] px-7 text-sm font-semibold text-white shadow-md shadow-[#5D45FD]/25 hover:bg-[#4B33EC]"
+              className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-7 text-sm font-semibold text-white shadow-md shadow-[#FF6B00]/25 hover:bg-[#E55A00]"
             >
               <span>Browse All Products</span>
               <ArrowRightIcon size={16} weight="bold" />
@@ -109,7 +109,7 @@ export default function CartPage() {
             {/* Free Shipping Banner */}
             <div className="rounded-[22px] border border-[#E7E9F2] bg-white p-4 shadow-xs">
               <div className="flex items-center gap-2 text-sm font-semibold text-[#141523]">
-                <TruckIcon size={18} weight="bold" className="text-[#5D45FD]" />
+                <TruckIcon size={18} weight="bold" className="text-[#0077EE]" />
                 {totals.freeShippingRemaining === 0 ? (
                   <span className="text-emerald-700">
                     Awesome! Your order qualifies for Free Ground Shipping.
@@ -117,7 +117,7 @@ export default function CartPage() {
                 ) : (
                   <span>
                     Add{" "}
-                    <strong className="text-[#5D45FD]">
+                    <strong className="text-[#0077EE]">
                       ${totals.freeShippingRemaining.toFixed(2)}
                     </strong>{" "}
                     more to unlock Free Ground Shipping (orders ${STORE_INFO.freeShippingThreshold}+)
@@ -129,7 +129,7 @@ export default function CartPage() {
                   className={`h-full rounded-full ${
                     totals.freeShippingRemaining === 0
                       ? "bg-emerald-500"
-                      : "bg-[#5D45FD]"
+                      : "bg-gradient-to-r from-[#0077EE] via-[#048BE3] to-[#FF6B00]"
                   }`}
                   initial={{ width: 0 }}
                   animate={{ width: `${totals.freeShippingProgress}%` }}
@@ -169,13 +169,13 @@ export default function CartPage() {
 
                       <div className="min-w-0 flex-1">
                         <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-[#7A7E96]">
-                          <span className="text-[#5D45FD]">{product.brand}</span>
+                          <span className="text-[#0077EE]">{product.brand}</span>
                           <span>·</span>
                           <span>{product.category}</span>
                         </div>
                         <Link
                           href={`/product/${product.slug}`}
-                          className="mt-1 block text-base font-bold text-[#141523] hover:text-[#5D45FD]"
+                          className="mt-1 block text-base font-bold text-[#141523] hover:text-[#FF6B00]"
                         >
                           {product.name}
                         </Link>
@@ -201,7 +201,7 @@ export default function CartPage() {
                               )
                             }
                             aria-label="Decrease quantity"
-                            className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#141523] shadow-xs hover:bg-[#EEEBFF]"
+                            className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#141523] shadow-xs hover:bg-[#EAF3FF]"
                           >
                             <MinusIcon size={13} weight="bold" />
                           </button>
@@ -218,7 +218,7 @@ export default function CartPage() {
                               )
                             }
                             aria-label="Increase quantity"
-                            className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#141523] shadow-xs hover:bg-[#EEEBFF]"
+                            className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#141523] shadow-xs hover:bg-[#EAF3FF]"
                           >
                             <PlusIcon size={13} weight="bold" />
                           </button>
@@ -248,7 +248,7 @@ export default function CartPage() {
 
             <Link
               href="/shop"
-              className="inline-flex items-center gap-2 pt-2 text-sm font-semibold text-[#5D45FD] hover:underline"
+              className="inline-flex items-center gap-2 pt-2 text-sm font-semibold text-[#0077EE] hover:underline"
             >
               <ArrowLeftIcon size={15} weight="bold" />
               <span>Continue Shopping</span>
@@ -278,7 +278,7 @@ export default function CartPage() {
                         key={opt.id}
                         className={`flex cursor-pointer items-center justify-between rounded-2xl border p-3 transition-all ${
                           selected
-                            ? "border-[#5D45FD] bg-[#F7F6FF]"
+                            ? "border-[#FF6B00] bg-[#FFF6F0]"
                             : "border-[#ECEEF6] hover:border-[#D5D1FC]"
                         }`}
                       >
@@ -288,7 +288,7 @@ export default function CartPage() {
                             name="cart-shipping"
                             checked={selected}
                             onChange={() => setShippingMethod(opt.id)}
-                            className="mt-0.5 h-4 w-4 accent-[#5D45FD]"
+                            className="mt-0.5 h-4 w-4 accent-[#FF6B00]"
                           />
                           <div>
                             <p className="text-xs font-bold text-[#141523]">
@@ -345,12 +345,12 @@ export default function CartPage() {
                           value={promoInput}
                           onChange={(e) => setPromoInput(e.target.value)}
                           placeholder="BETTER10 or WELCOME15"
-                          className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-9 pr-3 text-xs text-[#141523] focus:border-[#5D45FD] focus:bg-white focus:outline-none"
+                          className="h-10 w-full rounded-full border border-[#E7E9F2] bg-[#F7F8FC] pl-9 pr-3 text-xs text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                         />
                       </div>
                       <button
                         type="submit"
-                        className="h-10 rounded-full border border-[#5D45FD] px-4 text-xs font-bold text-[#5D45FD] transition-colors hover:bg-[#5D45FD] hover:text-white"
+                        className="h-10 rounded-full border border-[#0077EE] px-4 text-xs font-bold text-[#0077EE] transition-colors hover:bg-[#0077EE] hover:text-white"
                       >
                         Apply
                       </button>
@@ -398,7 +398,7 @@ export default function CartPage() {
                 </div>
                 <div className="flex justify-between border-t border-[#ECEEF6] pt-3 text-base font-bold text-[#141523]">
                   <dt>Total</dt>
-                  <dd className="font-display text-xl text-[#5D45FD]">
+                  <dd className="font-display text-xl text-[#FF6B00]">
                     ${totals.total.toFixed(2)}
                   </dd>
                 </div>
@@ -407,14 +407,14 @@ export default function CartPage() {
               <Link
                 href="/checkout"
                 data-agent="cart-proceed-checkout"
-                className="mt-6 flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[#5D45FD] text-sm font-bold text-white shadow-lg shadow-[#5D45FD]/25 transition-all hover:bg-[#4B33EC] active:scale-[0.98]"
+                className="mt-6 flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[#FF6B00] text-sm font-bold text-white shadow-lg shadow-[#FF6B00]/25 transition-all hover:bg-[#E55A00] active:scale-[0.98]"
               >
                 <span>Proceed to Checkout</span>
                 <ArrowRightIcon size={17} weight="bold" />
               </Link>
 
               <div className="mt-4 flex items-center justify-center gap-1.5 text-xs text-[#7A7E96]">
-                <ShieldCheckIcon size={15} weight="fill" className="text-[#5D45FD]" />
+                <ShieldCheckIcon size={15} weight="fill" className="text-[#0077EE]" />
                 <span>Encrypted checkout & 30-day return protection</span>
               </div>
             </div>

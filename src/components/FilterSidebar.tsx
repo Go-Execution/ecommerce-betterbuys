@@ -91,7 +91,7 @@ export function FilterSidebar({
             onClick={() =>
               onChange({ ...filters, priceMin: minLimit, priceMax: maxLimit })
             }
-            className="text-xs font-semibold text-[#7A7E96] transition-colors hover:text-[#5D45FD] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+            className="text-xs font-semibold text-[#7A7E96] transition-colors hover:text-[#0077EE] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
           >
             Reset
           </button>
@@ -135,7 +135,7 @@ export function FilterSidebar({
           <div className="relative mt-1 h-6">
             <div className="absolute top-1/2 h-1.5 w-full -translate-y-1/2 rounded-full bg-[#E6E8F2]" />
             <div
-              className="absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-[#5D45FD]"
+              className="absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-[#FF6B00]"
               style={{
                 left: `${leftPercent}%`,
                 width: `${Math.max(0, rightPercent - leftPercent)}%`,
@@ -199,7 +199,7 @@ export function FilterSidebar({
             <button
               type="button"
               onClick={() => onChange({ ...filters, minRating: 0 })}
-              className="text-xs font-semibold text-[#7A7E96] hover:text-[#5D45FD]"
+              className="text-xs font-semibold text-[#7A7E96] hover:text-[#0077EE]"
             >
               Reset
             </button>
@@ -218,9 +218,9 @@ export function FilterSidebar({
                 type="button"
                 onClick={() => onChange({ ...filters, minRating: opt.value })}
                 aria-pressed={active}
-                className={`flex items-center justify-between rounded-xl px-2.5 py-2 text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+                className={`flex items-center justify-between rounded-xl px-2.5 py-2 text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
                   active
-                    ? "bg-[#EEEBFF] text-[#5D45FD] font-semibold"
+                    ? "bg-[#EAF3FF] text-[#0077EE] font-semibold"
                     : "text-[#5C6078] hover:bg-[#F5F6FA]"
                 }`}
               >
@@ -252,7 +252,7 @@ export function FilterSidebar({
           <button
             type="button"
             onClick={() => onChange({ ...filters, brands: [] })}
-            className="text-xs font-semibold text-[#7A7E96] transition-colors hover:text-[#5D45FD] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+            className="text-xs font-semibold text-[#7A7E96] transition-colors hover:text-[#0077EE] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
           >
             Reset
           </button>
@@ -265,7 +265,7 @@ export function FilterSidebar({
               <li key={brand}>
                 <label className="group flex cursor-pointer items-center justify-between rounded-lg py-0.5 text-[13.5px] text-[#35384B] transition-colors hover:text-[#141523]">
                   <span className="flex items-center gap-2.5">
-                    <span className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-[#F3F4F8] text-[10px] font-bold text-[#5D45FD]">
+                    <span className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-[#F3F4F8] text-[10px] font-bold text-[#0077EE]">
                       {brand.slice(0, 2).toUpperCase()}
                     </span>
                     <span className="font-medium">{brand}</span>
@@ -279,10 +279,10 @@ export function FilterSidebar({
                     />
                     <span
                       aria-hidden="true"
-                      className={`flex h-5 w-5 items-center justify-center rounded-md border transition-all peer-focus-visible:ring-2 peer-focus-visible:ring-[#5D45FD] peer-focus-visible:ring-offset-1 ${
+                      className={`flex h-5 w-5 items-center justify-center rounded-md border transition-all peer-focus-visible:ring-2 peer-focus-visible:ring-[#FF6B00] peer-focus-visible:ring-offset-1 ${
                         checked
-                          ? "border-[#5D45FD] bg-[#5D45FD] text-white"
-                          : "border-[#D3D6E5] bg-white group-hover:border-[#5D45FD]"
+                          ? "border-[#0077EE] bg-[#0077EE] text-white"
+                          : "border-[#D3D6E5] bg-white group-hover:border-[#0077EE]"
                       }`}
                     >
                       {checked && <CheckIcon size={12} weight="bold" />}
@@ -298,7 +298,7 @@ export function FilterSidebar({
           <button
             type="button"
             onClick={() => setShowAllBrands((prev) => !prev)}
-            className="mt-3 text-xs font-semibold text-[#5D45FD] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD]"
+            className="mt-3 text-xs font-semibold text-[#0077EE] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00]"
           >
             {showAllBrands
               ? "Show fewer brands"
@@ -317,7 +317,7 @@ export function FilterSidebar({
             <button
               type="button"
               onClick={() => onChange({ ...filters, delivery: "all" })}
-              className="text-xs font-semibold text-[#7A7E96] hover:text-[#5D45FD]"
+              className="text-xs font-semibold text-[#7A7E96] hover:text-[#0077EE]"
             >
               All
             </button>
@@ -343,12 +343,12 @@ export function FilterSidebar({
                   })
                 }
                 aria-pressed={filters.delivery === opt.id}
-                className={`h-10 rounded-full text-xs font-semibold transition-all active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5D45FD] ${
+                className={`h-10 rounded-full text-xs font-semibold transition-all active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] ${
                   filters.delivery === opt.id
-                    ? "bg-[#5D45FD] text-white shadow-sm shadow-[#5D45FD]/30"
+                    ? "bg-[#01143F] text-white shadow-sm shadow-[#01143F]/30"
                     : active
-                    ? "border border-[#D5D1FC] bg-[#F7F6FF] text-[#5D45FD] hover:bg-[#EEEBFF]"
-                    : "border border-[#E7E9F2] bg-white text-[#35384B] hover:border-[#5D45FD]"
+                    ? "border border-[#FFCCA6] bg-[#FFF6F0] text-[#FF6B00] hover:bg-[#FFEBDC]"
+                    : "border border-[#E7E9F2] bg-white text-[#35384B] hover:border-[#0077EE]"
                 }`}
               >
                 {opt.label}

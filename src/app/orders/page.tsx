@@ -26,7 +26,7 @@ export default function OrdersPage() {
         </div>
         <Link
           href="/shop"
-          className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#5D45FD] hover:underline"
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0077EE] hover:underline"
         >
           <span>Shop New Arrivals</span>
           <ArrowRightIcon size={16} weight="bold" />
@@ -35,7 +35,7 @@ export default function OrdersPage() {
 
       {orders.length === 0 ? (
         <div className="rounded-[28px] border border-[#EAECEF] bg-white p-10 text-center shadow-xs">
-          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#EEEBFF] text-[#5D45FD]">
+          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#FFF1E5] text-[#FF6B00]">
             <PackageIcon size={32} weight="duotone" />
           </div>
           <h2 className="mt-4 font-display text-xl font-bold text-[#141523]">
@@ -46,7 +46,7 @@ export default function OrdersPage() {
           </p>
           <Link
             href="/shop"
-            className="mt-5 inline-flex h-11 items-center gap-2 rounded-full bg-[#5D45FD] px-7 text-sm font-bold text-white shadow-md shadow-[#5D45FD]/25 hover:bg-[#4B33EC]"
+            className="mt-5 inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-7 text-sm font-bold text-white shadow-md shadow-[#FF6B00]/25 hover:bg-[#E55A00]"
           >
             Start Shopping
           </Link>
@@ -61,7 +61,7 @@ export default function OrdersPage() {
               <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#ECEEF6] pb-4">
                 <div>
                   <div className="flex items-center gap-2.5">
-                    <span className="font-mono text-base font-bold text-[#5D45FD]">
+                    <span className="font-mono text-base font-bold text-[#FF6B00]">
                       {order.id}
                     </span>
                     <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-bold text-emerald-700">
@@ -84,7 +84,7 @@ export default function OrdersPage() {
                   </div>
                   <Link
                     href={`/thank-you?order=${encodeURIComponent(order.id)}`}
-                    className="inline-flex h-9 items-center gap-1.5 rounded-full border border-[#5D45FD] px-4 text-xs font-bold text-[#5D45FD] transition-colors hover:bg-[#5D45FD] hover:text-white"
+                    className="inline-flex h-9 items-center gap-1.5 rounded-full border border-[#0077EE] px-4 text-xs font-bold text-[#0077EE] transition-colors hover:bg-[#0077EE] hover:text-white"
                   >
                     <ReceiptIcon size={15} weight="bold" />
                     <span>View Receipt</span>
@@ -97,7 +97,7 @@ export default function OrdersPage() {
                   <Link
                     key={`${order.id}-${item.productId}-${item.variant || "std"}`}
                     href={`/product/${item.slug}`}
-                    className="flex items-center gap-2.5 rounded-2xl border border-[#ECEEF6] bg-[#FAFBFD] p-2 pr-3.5 transition-colors hover:border-[#5D45FD]"
+                    className="flex items-center gap-2.5 rounded-2xl border border-[#ECEEF6] bg-[#FAFBFD] p-2 pr-3.5 transition-colors hover:border-[#FF6B00]"
                   >
                     <img
                       src={item.image}
