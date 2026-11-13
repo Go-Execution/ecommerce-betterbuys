@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowRightIcon, SparkleIcon } from "@phosphor-icons/react";
 import { CATEGORIES } from "@/data/products";
+import { FAQSection } from "@/components/FAQSection";
 
 export function HomeSections() {
   const reduce = useReducedMotion();
@@ -13,7 +14,7 @@ export function HomeSections() {
   );
 
   return (
-    <div className="mx-auto mt-12 max-w-[1380px] space-y-12 px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto mt-12 max-w-[1380px] space-y-14 px-4 sm:px-6 lg:px-8">
       {/* Compact Shop by Department Row (Image-forward, minimal text) */}
       <section aria-labelledby="departments-heading">
         <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
@@ -82,7 +83,7 @@ export function HomeSections() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/shop?category=deals"
-              className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-6 text-sm font-bold text-white hover:bg-[#E55A00] shadow-sm transition-transform hover:scale-[1.02] active:scale-[0.98]"
+              className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF6B00] px-6 text-sm font-bold text-white shadow-sm transition-transform hover:bg-[#E55A00] hover:scale-[1.02] active:scale-[0.98]"
             >
               <span>Shop Deals</span>
               <ArrowRightIcon size={16} weight="bold" />
@@ -96,6 +97,9 @@ export function HomeSections() {
           </div>
         </div>
       </section>
+
+      {/* Interactive FAQ Section */}
+      <FAQSection />
     </div>
   );
 }

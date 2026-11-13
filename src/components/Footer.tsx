@@ -81,6 +81,11 @@ export function Footer() {
                   Track Orders
                 </Link>
               </li>
+              <li>
+                <Link href="/faq" className="transition-colors hover:text-[#FF6B00]">
+                  Help & FAQs
+                </Link>
+              </li>
             </ul>
           </div>
 

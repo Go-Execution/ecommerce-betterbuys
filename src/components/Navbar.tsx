@@ -346,6 +346,7 @@ export function Navbar() {
                 { href: "/favourites", label: `Favourites (${favourites.length})` },
                 { href: "/orders", label: `Orders (${orders.length})` },
                 { href: "/contact", label: "Support & Pickup" },
+                { href: "/faq", label: "Help & FAQs" },
               ].map((link) => (
                 <Link
                   key={link.href}
