@@ -111,8 +111,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1567,
     "slug": "speed-jump-rope-with-foam-handles-for-fitness-workout",
-    "name": "Speed Jump Rope with Foam Handles for Fitness & Workout",
-    "shortName": "Speed Jump Rope with Foam Handles",
+    "name": "Speed Jump Rope with Foam Grip Handles",
+    "shortName": "Speed Jump Rope",
     "price": 20,
     "category": "Fitness and Gym",
     "categorySlug": "fitness-and-gym",
@@ -124,13 +124,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Durable & Adjustable Rope: This jump rope is made of steel wires that are coated with strong PVC material, making it durable even after a long time exercising. Its adjustable length design enables you to customize the length according to your needs, making it suitable for everyone, no matter for kids or adults.",
+    "summary": "A fast, smooth jump rope for cardio at home, at the gym or outdoors. The foam handles are comfortable to hold through long sessions.",
     "highlights": [
-      "Durable & Adjustable Rope: This jump rope is made of steel wires that are coated with strong PVC material, making it durable even after a long time exercising. Its adjustable length design enables you to customize the length according to your needs, making it suitable for everyone, no matter for kids or adults.",
-      "Jump Fast, Jump Easily: Built-in with high-quality ball bearings, the skipping rope provides you with comfortable jump exercises. It supports fast jumps while protecting you from any potential tangles, satisfying your needs for safety and convenience at the same time.",
-      "Ergonomic Foam Handles: The ergonomic handles are well designed for your safety and convenience: they are covered with soft sponges, which makes the handles comfortable to hold. And the non-slip & moisture-wicking features also keep your palms dry, making your every exercise comfortable and safe!",
-      "Get Fitness Anytime & Anywhere: No matter you’re women or men, kids or adults, beginner or an experienced person, you can start jumping ropes anytime and anywhere. It’s easy and efficient, and it helps to strengthen your body, lose weight, and increase stamina.",
-      "Portable & Easy to Carry: You can easily carry jump ropes for fitness with you. Put it in your pocket and jump rope for workout with it when needed, it’s that convenient. We are also happy to serve you! If you have any questions, please contact us and we’ll give a satisfying solution."
+      "Foam handles for a comfortable, secure grip",
+      "Built for speed work, cardio and conditioning",
+      "Light and compact, so it fits in a gym bag",
+      "A simple way to get a real workout almost anywhere"
     ],
     "specs": [
       {
@@ -162,7 +161,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the Speed Jump Rope with Foam Handles for Fitness & Workout. Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Speed Jump Rope with Foam Grip Handles. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -180,8 +179,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1566,
     "slug": "4-pack-cooling-towels-40x12-microfiber-ice-towels-for-sports-gym",
-    "name": "4 Pack Cooling Towels (40\"x12\"), Microfiber Ice Towels for Sports & Gym",
-    "shortName": "4-Pack Cooling Ice Towels (40\"x12\")",
+    "name": "Cooling Towels, 4-Pack (40\" x 12\") for Gym, Sports & Hot Days",
+    "shortName": "Cooling Towels, 4-Pack",
     "price": 25,
     "compareAtPrice": 34,
     "category": "Fitness and Gym",
@@ -194,14 +193,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Microfiber",
+    "summary": "Wet it, wring it, wear it. These microfiber cooling towels help you stay comfortable during workouts, runs and summer yard work. You get four in the pack, so there's always a spare.",
     "highlights": [
-      "Microfiber",
-      "Our Cooling towel is made of microfiber hyper-evaporative breathable material, it has a soft feel , is super absorbent and breathable. This towel is a physical cooling by the evaporation of water molecules.",
-      "Cooling towel is different from simple towel, which makes you feel cool and comfortable for several hours and provides 50 UPF sunscreen protection",
-      "Cooling towel quickly cools down by just soaking, wringing the water out .The magical cooling effect can last up to several hours and easy to reactivate it by repeating the same steps.",
-      "Cooling towels is also perfect for hot flashes, fever or headache therapy, heatstroke prevention and for all who wants to keep cool during their outdoor adventures. It could be a great sports towel for running, cycling, workout, bowling, golf, yoga, gym, fitness, cold therapy for fever. Cooling towel will help to reduce a high temperature for all outdoor activities, such as gardening, golf, camping, climbing, fishing, hunting, hiking, Jogging, etc",
-      "39\"x11\" Snap Cooling Towel perfect around your neck as a scarf, headband or bandana and it can fold into a small, portable pouch and very easy to carry. The package contains four different colors: Blue/dark blue/gray/green"
+      "4 towels per pack (40\" x 12\" each)",
+      "Microfiber material, light and easy to carry",
+      "Good for the gym, sports, hiking and outdoor work",
+      "Share them with a workout partner or keep one in every bag"
     ],
     "specs": [
       {
@@ -237,7 +234,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the 4 Pack Cooling Towels (40\"x12\"), Microfiber Ice Towels for Sports & Gym. Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Cooling Towels, 4-Pack (40\" x 12\") for Gym, Sports & Hot Days. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -256,7 +253,7 @@ export const PRODUCTS: Product[] = [
     "id": 1565,
     "slug": "32oz-bpa-free-water-bottle-with-straw-time-markers",
     "name": "32oz BPA-Free Water Bottle with Straw & Time Markers",
-    "shortName": "32oz Motivational Water Bottle",
+    "shortName": "32oz Water Bottle with Straw & Time Markers",
     "price": 25,
     "category": "Fitness and Gym",
     "categorySlug": "fitness-and-gym",
@@ -268,14 +265,12 @@ export const PRODUCTS: Product[] = [
     "topItem": true,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Motivational Time Marker: QLUR 32 oz Water Bottles as your daily partner is designed with motivational quotes by the hour, it keeps your daily water intake on track. The inspirational water bottle helps you stay hydrated throughout the day",
+    "summary": "Hit your daily water goal without thinking about it. The time markers show you how much to have sipped by each hour, and the straw makes it easy to drink on the go.",
     "highlights": [
-      "Motivational Time Marker: QLUR 32 oz Water Bottles as your daily partner is designed with motivational quotes by the hour, it keeps your daily water intake on track. The inspirational water bottle helps you stay hydrated throughout the day",
-      "BPA Free & Non-toxic: The reusable water bottles is made of food grade Tritan material-100% BPA free and non-toxic. The high quality tritan water bottles can keep your safty. Sports water bottle does not generate odour, chemical or unpleasant taste",
-      "Easily Open & Leakproof: Our motivational water bottles flip-top lid is designed with a secure lock, which effectively preventing dust and leak-proof. It can be easily opened with one hand. Our sports water bottles for school has a silicone nozzle with a straw inside to prevent turbulent water flow",
-      "Portable Fashion Design: Our 32 oz water bottles is equipped with straw and a carry strap. And you also have a variety of colors to choose from. The wide mouth is easy to fit ice cubes and easy to clean . The clean brush coming with the water bottle is also a great cleaning partner",
-      "Idea Gifts: As a BPA-Free water bottles with time marker, we come with a cleaning brush and nice packaging. It's really a great gift for your families and friends as an excellent choice for fitness, gym, running, hiking, cycling, camping, and any other indoor or outdoor sports activities",
-      "Warm Tips: We recommend that you read the instructions carefully before use, if you have any questions, please contact us. we will respond the first time"
+      "32oz capacity, big enough to carry through your day",
+      "Time markers keep you on track",
+      "Straw lid for easy sipping at the gym or desk",
+      "BPA-free"
     ],
     "specs": [
       {
@@ -330,8 +325,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1564,
     "slug": "pull-up-resistance-bands-set-for-training-and-exercise",
-    "name": "Pull Up & Resistance Bands Set for Training and Exercise",
-    "shortName": "Pull Up & Resistance Bands Set",
+    "name": "Pull-Up Assist & Resistance Bands Set for Home Workouts",
+    "shortName": "Pull-Up & Resistance Bands Set",
     "price": 40,
     "compareAtPrice": 54,
     "category": "Fitness and Gym",
@@ -344,14 +339,12 @@ export const PRODUCTS: Product[] = [
     "topItem": true,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "100% Natural Latex",
+    "summary": "A full set of bands for strength training, stretching and pull-up practice. Set up a complete workout at home without a pile of equipment.",
     "highlights": [
-      "100% Natural Latex",
-      "Natural and Durable: Our pull up assistance bands are made of 100% natural latex from Malaysia, which makes WSAKOUE resistance bands soft and odorless. The resistance bands can remain high elastic after years of training and exercising",
-      "Multifunctional for Workout: Adding resistance and weight to your workout with the workout bands makes exercise more effective. These exercise bands is ideal for pull up assistance, adding resistances to press-up, speed training, bench press, squat, shoulder press etc",
-      "For All Strength Level: With different strength levels, these exercise bands will help you upgrade your fitness training from a newbie to a veteran. These fitness bands can be used alone or combined multiple workout bands to increase the challenge. Start now and build your dream body",
-      "A Set Train Different Parts of Body: The gym bands is perfect for men and women tone their arms, back, legs, and butt, chest, core, ABS and increase your body flexibility. Our stretch bands also show their excellent performance in physical therapy, weight loss, injury rehabilitation, speed training and more",
-      "Your Movable Gym: You can wrap up the fitness resistance bands kit in the drawstring bag or put the pull up assist weight bands in your handbag and exercise everywhere. These training bands are your good partner in pilates, Mobility, Powerlifting, Chin ups, Yoga, Stretching and calisthenics"
+      "Multiple resistance levels in one set",
+      "Works for pull-ups, strength moves and stretching",
+      "Packs small, so it travels easily",
+      "Suitable for beginners and experienced lifters"
     ],
     "specs": [
       {
@@ -387,7 +380,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the Pull Up & Resistance Bands Set for Training and Exercise. Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Pull-Up Assist & Resistance Bands Set for Home Workouts. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -405,8 +398,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1563,
     "slug": "iphone-16-pro-max-magsafe-case-13ft-drop-protection-hot-pink",
-    "name": "iPhone 16 Pro Max MagSafe Case - 13ft Drop Protection (Hot Pink)",
-    "shortName": "iPhone 16 Pro Max MagSafe Case",
+    "name": "iPhone 16 Pro Max MagSafe Case, 13ft Drop Protection, Hot Pink",
+    "shortName": "iPhone 16 Pro Max MagSafe Case, Hot Pink",
     "price": 24,
     "compareAtPrice": 32,
     "category": "Phone Case",
@@ -420,14 +413,12 @@ export const PRODUCTS: Product[] = [
     "spotlight": true,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "ATTENTION:Only Compatible with iPhone 16 Pro Max 6.9 inch\"",
+    "summary": "Bold hot pink on the outside, serious protection underneath. It's MagSafe compatible and rated for drops from up to 13ft.",
     "highlights": [
-      "ATTENTION:Only Compatible with iPhone 16 Pro Max 6.9 inch\"",
-      "Powerful & Upgrade MagnetWith 38 pieces of upgraded N52 magnets, the phone case for iPhone 16 Pro Max magnetic strength is 2X stronger than others. It allows for fast charging speed and provides strong and secure connections with magnetic accessories such as wallets, chargers, car mounts, etc. Meanwhile, it won't damage and decrease the phone's longevity",
-      "Inside & Outside Double Shields DesignFor the outside, we remain 1.5mm raised screen lips and a 1.5mm raised camera bezel to prevent scratches. For the inside, Newfuture goes the extra mile the inside of edges and a 360°air cushion inside of the camera bumpers. Based on 5000+ extreme 13ft drop resistance tests, It protects your phone sufficiently from all drops, collisions, and shocks without any damage",
-      "Anti-Scratch & Anti-FingerprintReferring to the ergonomic design, the aesthetic case is compatible with iPhone 16 Pro Max, it wraps seamlessly around your phone, at the same time stop dust from entering and scratching the body of your phone.effectively prevents fingerprints and stains, In addition, to help you to hold it reliably and to keep it comfortable and grippy enough for confident one-handed use",
-      "Metal Camera Frame & ButtonsThis magnetic case for iPhone 16 Pro Max adopts frosted translucent back panel and TPU frame, skin-friendly material and comfortable grip. What's more, the camera frame is made of high quality metal material, and the buttons are designed in metal frosted. It not only provides a stylish look, but also is durable",
-      "Perfect Fit & Lifetime ReplacementNewfuture regards every customer as the treasure of our brand Please keep us informed timely by messaging us through the Ecommerce Better Buys Support for any issues. Please keep talking with us until we solve your problems instead of leaving us alone. You have a lifetime replacement or refund for any quality problems and don't hesitate to contact us"
+      "Fits iPhone 16 Pro Max",
+      "MagSafe compatible for magnetic chargers and mounts",
+      "13ft drop protection",
+      "Hot pink finish"
     ],
     "specs": [
       {
@@ -482,8 +473,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1562,
     "slug": "iphone-14-hybrid-case-seashell-jellyfish-design",
-    "name": "iPhone 14 Hybrid Case (Seashell Jellyfish Design)",
-    "shortName": "iPhone 14 Hybrid Seashell Case",
+    "name": "iPhone 14 Hybrid Case, Seashell Jellyfish Design",
+    "shortName": "iPhone 14 Hybrid Case, Seashell Jellyfish",
     "price": 27,
     "category": "Phone Case",
     "categorySlug": "phone-case",
@@ -495,13 +486,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "hybrid 2-layer phone case is made of scratch resistant material, with a TPU silicone inner layer and a sturdy military grade PC shell providing unparalleled shock absorption, durability, and strong defense against scratches, breakage, and damage.",
+    "summary": "A hybrid case with a soft seashell and jellyfish design that stands out from plain black cases. It protects your iPhone 14 and adds some personality.",
     "highlights": [
-      "hybrid 2-layer phone case is made of scratch resistant material, with a TPU silicone inner layer and a sturdy military grade PC shell providing unparalleled shock absorption, durability, and strong defense against scratches, breakage, and damage.",
-      "hybrid 2-layer phone case can make your phone look brand new, and come with customized high-quality high-definition prints that won't fade.",
-      "You will definitely like to show off our phone case because it is not only beautiful, but also very comfortable, with a non slip grip.",
-      "You choose your favorite from our numerous designs, matching your unique personality and taste.",
-      "Exquisite phone cases are the perfect gift for holidays and can bring you a great life experience."
+      "Fits iPhone 14",
+      "Hybrid construction for everyday protection",
+      "Seashell jellyfish design",
+      "A good gift for beach and ocean lovers"
     ],
     "specs": [
       {
@@ -537,7 +527,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the iPhone 14 Hybrid Case (Seashell Jellyfish Design). Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the iPhone 14 Hybrid Case, Seashell Jellyfish Design. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -555,8 +545,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1561,
     "slug": "royalhouse-6-pack-5-5-oz-plastic-spice-jars-with-shaker-lids-bpa-free",
-    "name": "RoyalHouse 6-Pack 5.5 oz Plastic Spice Jars with Shaker Lids (BPA Free)",
-    "shortName": "RoyalHouse 6-Pack Spice Jars",
+    "name": "Spice Jars with Shaker Lids, 6-Pack (5.5oz, BPA-Free)",
+    "shortName": "Plastic Spice Jars, 6-Pack",
     "price": 20,
     "category": "Home and Kitchen",
     "categorySlug": "home-and-kitchen",
@@ -568,13 +558,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Premium Quality: Our plastic spice containers are made of high-quality plastic, durable and lightweight, and not easily broken.",
+    "summary": "Get your spice drawer organized. Six jars with shaker lids let you refill from bulk bags and pour exactly what you need.",
     "highlights": [
-      "Premium Quality: Our plastic spice containers are made of high-quality plastic, durable and lightweight, and not easily broken.",
-      "Multi-Purpose: Our clear plastic jars are perfect for storing dried spices, salt, peppers, seasonings, herb blends, powder, glitter, bath salts, crafts, etc.",
-      "Good Design: Clear and transparent containers allow you to see the inside clearly and easily identify what it is.",
-      "Easy to Use: The lids of our spice jars are two-sided flip tops for shaking or pouring spices. There is a removable internal seal under the lid of the jar to keep the product fresh and delicious.",
-      "Value Set: The package includes 6 pieces of 5.5oz plastic spice jars with black screw lids to meet your daily needs."
+      "6 jars, 5.5oz each",
+      "Shaker lids for easy, controlled pouring",
+      "BPA-free plastic",
+      "Good for spices, rubs, herbs and baking mixes"
     ],
     "specs": [
       {
@@ -624,8 +613,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1560,
     "slug": "fox-run-glass-spice-jar-with-shaker-lid-6-oz-1-pack",
-    "name": "Fox Run Glass Spice Jar with Shaker Lid, 6 oz (1 Pack)",
-    "shortName": "Fox Run 6oz Glass Spice Jar",
+    "name": "Glass Spice Jar with Shaker Lid, 6oz (Single Jar)",
+    "shortName": "Glass Spice Jar, 6oz",
     "price": 20,
     "category": "Home and Kitchen",
     "categorySlug": "home-and-kitchen",
@@ -637,13 +626,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "CLASSIC CLEAR GLASS JAR DESIGN: This classic style seasoning shaker is made of durable clear glass with a stainless steel lid to allow easy identification of kitchen spices and seasoning blends for cooking",
+    "summary": "A clear glass jar with a shaker lid for the spices you use most. You can see at a glance when it's running low.",
     "highlights": [
-      "CLASSIC CLEAR GLASS JAR DESIGN: This classic style seasoning shaker is made of durable clear glass with a stainless steel lid to allow easy identification of kitchen spices and seasoning blends for cooking",
-      "GLASS SPICE JAR WITH STAINLESS STEEL LID: Includes rotating shaker feature to allow easy open and close action for dispensing spices through shaker holes; screw-on lid for tight seal then rotate top for easy dispensing",
-      "LARGE 6-OUNCE CAPACITY SPICE SHAKER stores ample portions of salt, pepper, cinnamon, sugar, garlic or onion powder, as well homemade seasoning blends and BBQ rub, making it the perfect shaker for seasonings",
-      "SHAKE OR POUR WITH EASE! This glass shaker for spices will keep moisture out for longer lasting freshness; fill empty seasoning jar with BBQ rub, steak seasoning, seafood spice or other spice blends",
-      "EASY CARE: Top rack dishwasher safe, or hand wash and towel dry - Individual shaker jar with lid measures: 2 x 2 x 5 inches and holds approximately 6 oz or 180 ml"
+      "6oz glass jar with shaker lid",
+      "Single jar, so buy as many as you need",
+      "Clear glass lets you check contents quickly"
     ],
     "specs": [
       {
@@ -675,7 +662,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the Fox Run Glass Spice Jar with Shaker Lid, 6 oz (1 Pack). Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Glass Spice Jar with Shaker Lid, 6oz (Single Jar). Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -693,8 +680,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1559,
     "slug": "depets-self-cleaning-slicker-brush-for-dogs-cats-deshedding-tool",
-    "name": "Depets Self-Cleaning Slicker Brush for Dogs & Cats - Deshedding Tool",
-    "shortName": "Depets Self-Cleaning Slicker Brush",
+    "name": "Self-Cleaning Slicker Brush for Dogs & Cats, Deshedding Tool",
+    "shortName": "Self-Cleaning Slicker Brush",
     "price": 18,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -706,13 +693,12 @@ export const PRODUCTS: Product[] = [
     "topItem": true,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Clean Pets, Clean House: Depets cat & dog brush for shedding can easily remove loose hair, shedding mats, dander and dirt of your pet, which not only keep your pet clean, but also provide you with a clean and hygienic home environment",
+    "summary": "Brush away loose fur, then press a button to release it. The self-cleaning design makes grooming faster and a lot less messy.",
     "highlights": [
-      "Clean Pets, Clean House: Depets cat & dog brush for shedding can easily remove loose hair, shedding mats, dander and dirt of your pet, which not only keep your pet clean, but also provide you with a clean and hygienic home environment",
-      "Great Brush, Healthy Pets: The cat grooming brush with round beads can do massage for pets and prevent scratching. The stainless steel needles of dog brush are designed with a 60 degree bend to better reach pet's skin and promote blood circulation",
-      "One-click Cleaning Button: Cat brush with release button, you just have to simply push the button and the hair will be super simple removed from the cat hair brush. And our dog grooming brush is washable, which can be kept in clean",
-      "Comfortable and Nonslip Handle: Our cat shedding brush is designed with a comfort-grip and nonslip handle, and this self cleaning cat brush also has a massage function for your hand and you won't get tired easily when you brush your pet",
-      "Enjoyable Brushing Experience: Grooming your pet can promote bonding with your pet. Our pet brush is suitable for long-haired or short-haired pets (non-applicable types: curly-haired, wire-haired, hairless pets). With Depets dog and cat shedding brush, your beloved pet will enjoy the time of grooming"
+      "Works on dogs and cats",
+      "Self-cleaning: no pulling fur off by hand",
+      "Helps reduce shedding around the house",
+      "Gentle, regular brushing keeps coats tidy"
     ],
     "specs": [
       {
@@ -762,8 +748,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1558,
     "slug": "luciphia-3-pack-soft-fleece-pet-blankets-for-dogs-cats-small",
-    "name": "Luciphia 3-Pack Soft Fleece Pet Blankets for Dogs & Cats (Small)",
-    "shortName": "Luciphia 3-Pack Fleece Pet Blankets",
+    "name": "Soft Fleece Pet Blankets, 3-Pack (Small) for Dogs & Cats",
+    "shortName": "Fleece Pet Blankets, 3-Pack, Small",
     "price": 20,
     "compareAtPrice": 28,
     "category": "Pet Supplies",
@@ -776,13 +762,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Multiple Size OptionEach small/medium/large pack includes 3 identical covers. Small (23\"x16\") for cats/kittens/tiny pups; Medium (30\"x20\") for medium dogs/adult cats; Large (41\"x31\") for larger breeds.",
+    "summary": "Cozy fleece blankets for beds, crates and car seats. With three in the pack, you can wash one while another is in use.",
     "highlights": [
-      "Multiple Size OptionEach small/medium/large pack includes 3 identical covers. Small (23\"x16\") for cats/kittens/tiny pups; Medium (30\"x20\") for medium dogs/adult cats; Large (41\"x31\") for larger breeds. Stock up for home, crate, and travel-3 blankets mean you always have a clean, cozy option handy. This value pack of pet essentials beats single-blanket buys by far!",
-      "Double-Sided Coral Velvet Warm Material100% premium polyester coral velvet textures, plush, fluffy, and soft as a baby blanket. Gentle on sensitive skin (no irritation), stays silky-smooth with daily use-no shedding or pilling. Delivers long-lasting warmth, making it a top pick among puppy supplies for discerning pet parents.",
-      "Durable & Easy to Clean100% machine washable (toss with like colors!) & dryer safe, quick-drying. Resists chewing, minor spills, and heavy shedding-holds up wash after wash without shrinking, fading, or loss of softness. Tough enough for pets, easy enough for busy pet parents to keep clean!",
-      "Furniture ProtectionAdorable paw print design adds a playful touch to any room. Shields couches, sofas, beds, and pet carriers from scratching and pet hair-puppy essentials for new fur babies. Keeps your furniture looking sharp while giving your pet a dedicated cozy spot. Skin-friendly and pet-approved-win-win for you and your furry companion!",
-      "Portable & Outdoor-FriendlyLightweight and compact, these 3 identical blankets fold up small for easy storage in your bag or car. Ideal for outdoor activities like traveling, camping, picnics, or vet visits. Keeps your pet warm, snug, and secure outdoors. This 3-pack also makes a thoughtful gift for fellow pet lovers!"
+      "3 blankets per pack, small size",
+      "Soft fleece for warmth and comfort",
+      "Good for crates, beds, carriers and the car",
+      "Ideal for puppies, kittens and small pets"
     ],
     "specs": [
       {
@@ -837,8 +822,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1557,
     "slug": "ameritex-waterproof-dog-bed-cover-for-sofa-furniture-reversible",
-    "name": "Ameritex Waterproof Dog Bed Cover for Sofa & Furniture (Reversible)",
-    "shortName": "Ameritex Waterproof Dog Sofa Cover",
+    "name": "Waterproof Furniture Cover for Dogs, Reversible, for Sofas & Beds",
+    "shortName": "Waterproof Dog Bed Cover",
     "price": 18,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -850,11 +835,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Reversible quilted sofa protector shield with waterproof inner membrane to guard couches and sectionals from spills, muddy paws, and pet hair.",
+    "summary": "Let your dog on the couch without worrying about hair, spills or accidents. The reversible cover protects your furniture and washes easily.",
     "highlights": [
-      "Reversible quilted sofa protector shield with waterproof inner membrane to guard couches and sectionals from spills, muddy paws, and pet hair.",
-      "Machine-washable microfiber fabric stays soft for pets while keeping upholstery crisp and dry.",
-      "Non-slip stitched texture drapes cleanly over loveseats, recliners, and standard sofas."
+      "Waterproof protection for sofas and furniture",
+      "Reversible, so you get two looks",
+      "Helps keep hair and dirt off your upholstery"
     ],
     "specs": [
       {
@@ -890,7 +875,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the Ameritex Waterproof Dog Bed Cover for Sofa & Furniture (Reversible). Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Waterproof Furniture Cover for Dogs, Reversible, for Sofas & Beds. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -908,8 +893,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1556,
     "slug": "self-cleaning-pet-brush-for-dogs-cats-black",
-    "name": "Self-Cleaning Pet Brush for Dogs & Cats (Black)",
-    "shortName": "Self-Cleaning Pet Grooming Brush",
+    "name": "Self-Cleaning Pet Grooming Brush, Black",
+    "shortName": "Self-Cleaning Pet Brush, Black",
     "price": 20,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -921,13 +906,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Easy Desheding Brush: THe self cleaning dog brush for long haired dogs and short haired dogs with release bottom helps effortlessly reduce shedding. It's the one cat brush for indoor cats you must have, cat brush for shedding, slicker brush for dogs and horses.",
+    "summary": "A one-handed grooming brush that cleans itself. Great for the daily brush-down.",
     "highlights": [
-      "Easy Desheding Brush: THe self cleaning dog brush for long haired dogs and short haired dogs with release bottom helps effortlessly reduce shedding. It's the one cat brush for indoor cats you must have, cat brush for shedding, slicker brush for dogs and horses.",
-      "Skin Friendly: Soft and protective plastic round head bristles won't scratch you lovely pet while deshedding. No irrataion puppy brush for small dogs, dog brush for shedding and grooming.",
-      "Sturdy & Durable: Made of premium stainless steel metal and comfortable rubber, this dog brush cat brush ensure the sturdiness and durability for long term use.",
-      "Ergonomic Design: Easy cleaning press button and high-quality & lightweight TPR handle make your deshedding job done a breeze.",
-      "Efficient to Remove Loose Fur: This Pet grooming brush is efficient to remove loose fur, suitable for dogs, cat with long and short hair, perfect for your lovely pet like horses, golden retriever, rabbit, kitten, bunny, yokie and more."
+      "For dogs and cats",
+      "Self-cleaning design",
+      "Black finish"
     ],
     "specs": [
       {
@@ -990,13 +973,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Widely Use:2 Types Reusable Pet Hair Remover for Different Materials - Copper pet hair remover be used for heavy duty and thick piled items, such as carpet, rug, couch, furniture, blanket, cat tree, car interiors, winter coats and etc. Plastic fabric shaver can be used for soft and thin fabrics, like upholstery, ottoman, velvet, bed sheet, sweatshirt and etc",
+    "summary": "Pull stubborn pet hair out of carpets and rugs without a vacuum. It's a simple tool for a cleaner living room.",
     "highlights": [
-      "Widely Use:2 Types Reusable Pet Hair Remover for Different Materials - Copper pet hair remover be used for heavy duty and thick piled items, such as carpet, rug, couch, furniture, blanket, cat tree, car interiors, winter coats and etc. Plastic fabric shaver can be used for soft and thin fabrics, like upholstery, ottoman, velvet, bed sheet, sweatshirt and etc",
-      "Easy to use: This Pet Hair Remover can quickly shave and refresh old fabrics. Will not damage the fabric, this Pet Hair Remover remove pilling and fluff from sweaters, curtains, carpets, upholstery, etc",
-      "Keep Elegant:This lint shaver Restores your clothes and fabrics to a fresh new look. The Lint Cleaner Pro Easily remove fabric fluff, fuzz, pill, lint and bobbles from all types of clothes and fabric, Such as sweaters, sofa, curtain, blankets, bedsheets, furniture and so on",
-      "Superior Quality:The fabric shaver easily removes pet hair, bread crumbs, lint, etc., The Lint Remover is very suitable for washing clothes, bedding, furniture and car interiors. Plastic Lint Shaver with 3 Lines of Brushes and Flat Edge - Smooth plastic teeth, won't snag fabrics or clothes. All together, this lint cleaner can safely and efficiently remove dog & cat hair, furs, fuzz, pills, and hairball from the sweater, blankets, curtains, jackets and more",
-      "Environmental protection:Unlike battery-powered electric hair removal machines, this sweater shaver no longer wastes batteries because this lint roller for pet hair cannot provide strong power continuously and can be operated manually, which is simple and convenient"
+      "Lifts pet hair from carpet and rugs",
+      "No batteries or power needed",
+      "Handy for quick touch-ups before guests arrive"
     ],
     "specs": [
       {
@@ -1046,8 +1027,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1554,
     "slug": "silvervine-catnip-toy-set-2pcs-for-cats",
-    "name": "Silvervine Catnip Toy Set (2Pcs) for Cats",
-    "shortName": "Silvervine Catnip Chew Toy Set",
+    "name": "Silvervine Catnip Toys for Cats, 2-Piece Set",
+    "shortName": "Silvervine Catnip Toy Set, 2-Piece",
     "price": 19,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -1059,13 +1040,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "100%Natural Silvervine (also known as Mtatabi) plant, harvested from the jungles of Southeast Asia, combined with wild catnip and hand-woven. 100% natural, no additives and preservatives, safe for pets.",
+    "summary": "Two toys for cats who need more play. Silvervine is a favorite for cats that aren't excited by catnip alone.",
     "highlights": [
-      "100%Natural Silvervine (also known as Mtatabi) plant, harvested from the jungles of Southeast Asia, combined with wild catnip and hand-woven. 100% natural, no additives and preservatives, safe for pets.",
-      "For dental healthSilvervine sticks lead cats healthy chewing behavior, help cats grow permanent teeth, and effectively eliminate plaque and tartar during chewing, fresh breath, protect oral health, make you and your pet closer.",
-      "Correcting bad habits, regulate moodThe combination of silvervine stick, catnip ball and bell ball will make cats more interest compared to other cat toys. So that the cat will no longer be lazy and sullen since then, and helps redirect destructive behavior to keep your furniture from being destroy.",
-      "Promote digestion, recyclingBoth silvervine stick and catnip can improve cat’s digestive system, thus increase cat’s appetite. The skin on the silvervine stick will fall off and deteriorate after chewing, just use a knife to peel off the skin after a period of time to turn It into a brand new silvervine catnip ball, which can be recycled without wasting.",
-      "100%PET CRAFT PROMISEGochanmon is committed to creating healthy pet toys .The product test result shown that 80% of cats, kittens and adult dogs love this SilverVine Catnip Ball toy. If your pet happens to be uninterested in the SilverVine Catnip Ball or contact us if you have any questions and we will do our best to help you！"
+      "2 toys per set",
+      "Silvervine and catnip appeal",
+      "Encourages play and activity for indoor cats"
     ],
     "specs": [
       {
@@ -1097,7 +1076,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the Silvervine Catnip Toy Set (2Pcs) for Cats. Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Silvervine Catnip Toys for Cats, 2-Piece Set. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -1115,8 +1094,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1553,
     "slug": "squeaky-parrot-dog-toy-rope-plush-for-tug-chew",
-    "name": "Squeaky Parrot Dog Toy - Rope Plush for Tug & Chew",
-    "shortName": "Squeaky Parrot Rope Dog Toy",
+    "name": "Squeaky Parrot Dog Toy, Rope Plush for Tug & Chew",
+    "shortName": "Squeaky Parrot Dog Toy",
     "price": 24,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -1128,13 +1107,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "ENTERTAINING SQUEAKER: The built-in squeaker inside the parrot's body captures your dog's attention instantly and satisfies their natural curiosity, keeping them engaged and entertained for hours of interactive fun.",
+    "summary": "A plush parrot with a squeaker and rope for tug-of-war and chewing. It gives your dog something fun to carry, shake and chase.",
     "highlights": [
-      "ENTERTAINING SQUEAKER: The built-in squeaker inside the parrot's body captures your dog's attention instantly and satisfies their natural curiosity, keeping them engaged and entertained for hours of interactive fun.",
-      "INTERACTIVE ROPE WINGS: Features unique, durable rope wings instead of standard plush, creating perfect handles for an exciting game of tug-of-war. Perfect for strengthening the bond between you and your furry friend.",
-      "DUAL STIMULATION: This toy brilliantly combines the enticing sound of a squeaker with the physical engagement of a tug toy, providing both mental and physical exercise to help combat boredom and reduce destructive behavior.",
-      "SOFT & DURABLE CONSTRUCTION: Crafted from gentle, pet-safe plush material with strong stitching. It's soft on your dog's mouth yet designed to withstand regular play, making it an ideal and safe indoor toy.",
-      "THE BEST KIND OF GIFT: The joy of watching your pup pounce and play is worth everything. We make that unforgettable experience surprisingly affordable."
+      "Squeaker for extra excitement",
+      "Rope and plush design for tug and chew",
+      "Good for interactive play"
     ],
     "specs": [
       {
@@ -1184,8 +1161,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1552,
     "slug": "qdan-dog-soccer-ball-toy-with-straps-6-inch",
-    "name": "QDAN Dog Soccer Ball Toy with Straps (6-Inch)",
-    "shortName": "QDAN Dog Soccer Ball with Straps",
+    "name": "Dog Soccer Ball Toy with Straps, 6-Inch",
+    "shortName": "Dog Soccer Ball Toy, 6-Inch",
     "price": 21,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -1197,13 +1174,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "New Chicken Dog Toys: Unlike regular soccer balls for dogs, our new-design dog ball toy is more colorful, your dog will love this ball at first sight, let your dog interact with our ball in a natural way, as if playing with a new \"friend\", inspire your dog's enthusiasm. Choose the right size for your dog for a better experience: 20-40LBS choose medium dog ball toys, 40-90LBS choose large soccer ball toys",
+    "summary": "A 6-inch ball with straps that is easy for dogs to grab and carry. Great for fetch, chasing and burning off energy.",
     "highlights": [
-      "New Chicken Dog Toys: Unlike regular soccer balls for dogs, our new-design dog ball toy is more colorful, your dog will love this ball at first sight, let your dog interact with our ball in a natural way, as if playing with a new \"friend\", inspire your dog's enthusiasm. Choose the right size for your dog for a better experience: 20-40LBS choose medium dog ball toys, 40-90LBS choose large soccer ball toys",
-      "Why Choose Our Dog Balls: Outdoor dog toys can help your dog release energy, enhance intelligence, and relieve loneliness. Watching your dog chasing, running, playing, reduce boredom, improve your dog's physical fitness, thereby improving their physical fitness and endurance",
-      "Interactive Dog Ball with Straps: Dog soccer ball with straps sewn evenly into the seams not only create an erratic bounce that your dogs love to chase, but also make it easier for your dogs to fetch, toss, tug and retrieve. There's a longer strap for you to hold the ball, making it a great interactive dog toy to train your dogs",
-      "QDAN Dog Christmas Gifts: the balls for dogs can be played in the living room, pool, lake and beach, because it is also Water Toys Ball, no water absorption, no seepage, no deformation, lightweight, easy to float in water.",
-      "ATTENTION: This is a pet toy and not a chew toy. Always supervise your pet during use. Remove and discard any damaged or loose pieces to prevent choking or accidental ingestion. Please contact us if you happen to have any questions. A team of experts to solve any dog ball problem for you"
+      "6-inch size",
+      "Straps make it easy to carry and tug",
+      "Good for fetch and outdoor play"
     ],
     "specs": [
       {
@@ -1253,7 +1228,7 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1551,
     "slug": "jeetee-8-nonstick-stone-frying-pan-heat-resistant-handle",
-    "name": "JEETEE 8\" Nonstick Stone Frying Pan - Heat-Resistant Handle",
+    "name": "8\" Nonstick Stone Frying Pan with Heat-Resistant Handle",
     "shortName": "JEETEE 8\" Nonstick Stone Frying Pan",
     "price": 28,
     "compareAtPrice": 38,
@@ -1268,14 +1243,12 @@ export const PRODUCTS: Product[] = [
     "spotlight": true,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Health & Safe Nonstick CoatingOur Marble stone non-stick coating outperforms traditional nonstick pots and pans surfaces. Independently certified 100% free from PFOA/PFOS/lead/cadmium and other harmful chemicals, ensuring your daily cooking is always safer and healthier",
+    "summary": "The right size for eggs, a single steak or a quick stir-fry. The nonstick stone surface cleans up easily, and the heat-resistant handle stays comfortable to hold.",
     "highlights": [
-      "Health & Safe Nonstick CoatingOur Marble stone non-stick coating outperforms traditional nonstick pots and pans surfaces. Independently certified 100% free from PFOA/PFOS/lead/cadmium and other harmful chemicals, ensuring your daily cooking is always safer and healthier",
-      "Super Easy To CleanOur non-stick frying pan cleans up in seconds, the eco-friendly coating makes cleaning a breeze, wipe it with a paper towel or rinse it with a little water. Hand washing is recommended to maintain coating longevity",
-      "Professional Grade PerformanceEngineered with a reinforced aluminum core, our frying pan delivers restaurant-quality results. Seamless mold technology for even heat distribution, can withstand 464°F, and prevents food trapping",
-      "Compatible For All StovesHigh magnetic conductive reinforced base allows our nonstick skillet to work on all cooktops, including induction. The pan's bottom is flat and thick, heats up quickly and evenly",
-      "Stay-Cool Heat-resistant HandleThe light wood grain color bakelite handle is soft and comfortable to hold, remains cool while cooking. The sturdy handle also provides a hole for hanging when not in use",
-      "Cook on medium or low heat to make your pan last longer"
+      "8\" cooking surface, ideal for one or two servings",
+      "Nonstick stone coating for easy release and cleanup",
+      "Heat-resistant handle",
+      "Quick everyday cooking"
     ],
     "specs": [
       {
@@ -1330,8 +1303,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1550,
     "slug": "y2k-phone-charms-1-4pcs-cute-strawberry-star",
-    "name": "Y2K Phone Charms 1-4PCS - Cute Strawberry & Star",
-    "shortName": "Y2K Strawberry & Star Phone Charms",
+    "name": "Y2K Phone Charms, Strawberry & Star (Choose 1 to 4 Pieces)",
+    "shortName": "Y2K Phone Charms, 1-4 Pieces",
     "price": 17,
     "category": "Phone Case",
     "categorySlug": "phone-case",
@@ -1343,12 +1316,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Excellent Y2K design phone charms straps, easy to install and super cut",
+    "summary": "Dress up your phone with retro strawberry and star charms. Pick the number you want and mix them to your own style.",
     "highlights": [
-      "Excellent Y2K design phone charms straps, easy to install and super cut",
-      "High Quality Material, these decorative phone charm straps are made of quality alloy and acrylic, durable and firm, shiny and pretty. Can be easily fixed on.",
-      "The cute cellphone charms are also fit for iPad, airpods, purse, keychain, cameras, handbags, USB disk, work card, car key ring, wallet, tag, backpack, daily pendant, ID card, tablet computer, bike pendant, bookmarks, bracelets, jewelry accessories, etc.",
-      "Very special and practical lovely phone charms gifts for your family members, friends and loved ones. It is a great daily accessory for matching with aesthetic to highlight the youthful atmosphere."
+      "Strawberry and star designs",
+      "Choose 1, 2, 3 or 4 pieces",
+      "Easy to attach to a phone or case",
+      "A low-cost gift or stocking stuffer"
     ],
     "specs": [
       {
@@ -1398,8 +1371,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1549,
     "slug": "newfuture-iphone-16-pro-max-case-magsafe-shockproof-hot-pink",
-    "name": "Newfuture iPhone 16 Pro Max Case - MagSafe, Shockproof, Hot Pink",
-    "shortName": "Newfuture iPhone 16 Pro Max Case",
+    "name": "Shockproof iPhone 16 Pro Max Case with MagSafe, Hot Pink",
+    "shortName": "Newfuture iPhone 16 Pro Max Case, Hot Pink",
     "price": 25,
     "category": "Phone Case",
     "categorySlug": "phone-case",
@@ -1411,14 +1384,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "ATTENTION:Only Compatible with iPhone 16 Pro Max 6.9 inch\"",
+    "summary": "A shockproof, MagSafe-ready case that protects your phone and still looks great. Choose it if you want a bright color with solid everyday protection.",
     "highlights": [
-      "ATTENTION:Only Compatible with iPhone 16 Pro Max 6.9 inch\"",
-      "Powerful & Upgrade MagnetWith 38 pieces of upgraded N52 magnets, the phone case for iPhone 16 Pro Max magnetic strength is 2X stronger than others. It allows for fast charging speed and provides strong and secure connections with magnetic accessories such as wallets, chargers, car mounts, etc. Meanwhile, it won't damage and decrease the phone's longevity",
-      "Inside & Outside Double Shields DesignFor the outside, we remain 1.5mm raised screen lips and a 1.5mm raised camera bezel to prevent scratches. For the inside, Newfuture goes the extra mile the inside of edges and a 360°air cushion inside of the camera bumpers. Based on 5000+ extreme 13ft drop resistance tests, It protects your phone sufficiently from all drops, collisions, and shocks without any damage",
-      "Anti-Scratch & Anti-FingerprintReferring to the ergonomic design, the aesthetic case is compatible with iPhone 16 Pro Max, it wraps seamlessly around your phone, at the same time stop dust from entering and scratching the body of your phone.effectively prevents fingerprints and stains, In addition, to help you to hold it reliably and to keep it comfortable and grippy enough for confident one-handed use",
-      "Metal Camera Frame & ButtonsThis magnetic case for iPhone 16 Pro Max adopts frosted translucent back panel and TPU frame, skin-friendly material and comfortable grip. What's more, the camera frame is made of high quality metal material, and the buttons are designed in metal frosted. It not only provides a stylish look, but also is durable",
-      "Perfect Fit & Lifetime ReplacementNewfuture regards every customer as the treasure of our brand Please keep us informed timely by messaging us through the Ecommerce Better Buys Support for any issues. Please keep talking with us until we solve your problems instead of leaving us alone. You have a lifetime replacement or refund for any quality problems and don't hesitate to contact us"
+      "Fits iPhone 16 Pro Max",
+      "Shockproof design",
+      "MagSafe compatible",
+      "Hot pink finish"
     ],
     "specs": [
       {
@@ -1472,8 +1443,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1548,
     "slug": "sunstory-samsung-s24-s25-case-red-with-screen-protector-kickstand",
-    "name": "SunStory Samsung S24/S25 Case - Red with Screen Protector & Kickstand",
-    "shortName": "SunStory S24/S25 Armor Case",
+    "name": "Samsung Galaxy S24/S25 Case with Kickstand & Screen Protector, Red",
+    "shortName": "SunStory Samsung S24/S25 Case, Red",
     "price": 25,
     "compareAtPrice": 34,
     "category": "Phone Case",
@@ -1486,13 +1457,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Only Compatible with Samsung Galaxy S24 / S25 PhoneNot for Galaxy S25 Plus Phone or Galaxy S25 ultra PhoneProvide free soft screen protectors and install them according to the instructions. Note thatwireless charging is not supported!",
+    "summary": "Protection and extras in one purchase. The built-in kickstand props your phone up for video calls and movies, and the included screen protector shields the display.",
     "highlights": [
-      "Only Compatible with Samsung Galaxy S24 / S25 PhoneNot for Galaxy S25 Plus Phone or Galaxy S25 ultra PhoneProvide free soft screen protectors and install them according to the instructions. Note thatwireless charging is not supported!",
-      "Camera Lens ProtectionThis phone case use lens slide design, it easy to slide and not to loose, and enhance protective of your phone camera from scratches, collision, scuffs and impact, not only improve safety, protect your privacy but also has a sense of fashion.",
-      "360° Rotable Magnetic KickstandAdvanced Ring Metal kickstand can rotate 360°, easy to rotate and sturdy on the phone case. Built in kickstand gives you the convenience to watch videos and movies hands-free with desired comfort and stability.",
-      "Full Body ProtectionThe phone case is made of anti-scratch hard rigid PC bumper and shock resistance soft TPU, with Air-Cushion Technology for all corners and the raised TPU bezel design, provide all around double protection of your phone from drops, scratches and bumps.",
-      "High Quality after Sales ServiceWe are committed to producing high-quality products, If you come across any issues while using the product, please feel free to reach out to us.we will provide you with the most reasonable solution."
+      "Fits Samsung S24/S25 (confirm exact model compatibility with your supplier)",
+      "Built-in kickstand",
+      "Screen protector included",
+      "Red finish"
     ],
     "specs": [
       {
@@ -1546,8 +1516,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1547,
     "slug": "dilabee-12oz-spray-bottles-3-pack-multi-purpose",
-    "name": "DilaBee 12oz Spray Bottles (3 Pack) - Multi-Purpose",
-    "shortName": "DilaBee 12oz Misting Bottles (3-Pack)",
+    "name": "12oz Spray Bottles, 3-Pack, Multi-Purpose",
+    "shortName": "Spray Bottles, 3-Pack, 12oz",
     "price": 22,
     "category": "Garden & Outdoor",
     "categorySlug": "garden-outdoor",
@@ -1559,13 +1529,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Vibrant Multicolor Bottle Spray This 3-pack of stylish 12 oz (355ml) hair water spray bottles comes in three vibrant colors: blue, pink, and purple. Designed to add a cheerful touch while offering practicality, each bottle measures 3.2 inches wide and 7.5 inches tall, fitting comfortably in your hand.",
+    "summary": "Three refillable spray bottles for cleaning, plants, laundry and everyday jobs. Label one for each use and you're set.",
     "highlights": [
-      "Vibrant Multicolor Bottle Spray This 3-pack of stylish 12 oz (355ml) hair water spray bottles comes in three vibrant colors: blue, pink, and purple. Designed to add a cheerful touch while offering practicality, each bottle measures 3.2 inches wide and 7.5 inches tall, fitting comfortably in your hand. Stay organized and brighten your routine with these functional and fun spray bottles!",
-      "Built to Last Our BPA-free PET plastic spray bottle are your ultimate, long-lasting solution! Designed to be chemical-resistant and leak-proof, these robust spray bottles for cleaning feature an adjustable nozzle that seamlessly transitions from a fine mist to a powerful stream. Perfect sprayer bottle for all your spraying needs!",
-      "Versatile Empty Spray Bottle The perfect companion for every task! These bottle sprayer handle cleaning solutions, watering plants, hair care, liquid cleaners, alcohol, bleach, fertilizers, and more. Plus, they're food grade spray bottle, making them ideal for BBQ smoking, cooking, and beyond!",
-      "Conserve with Ease Discover the ultimate tool for efficiency and organization with these versatile mini spray bottles. This water bottle spray is ideal for even dispensing, helping you breeze through chores more quickly and efficiently.. Whether you're cleaning, watering plants, or managing household tasks, these hair spray bottles ensure precise application, saving you time and effort.",
-      "Easy to Clean Spray Water Bottle Keep your water spray bottles for plants in top shape with simple handwashing! Although they are not dishwasher safe, a quick rinse before reuse, followed by a thorough wash with soap, will ensure they're spotless and ready for action. This easy cleaning routine washes away any residue, leaving your heavy duty spray bottles fresh and clean for your next use. Enjoy the convenience of always having clean, ready-to-use refillable spray bottle for all your needs!"
+      "3 bottles, 12oz each",
+      "Multi-purpose: cleaning, misting plants, ironing and more",
+      "Reusable and refillable"
     ],
     "specs": [
       {
@@ -1615,8 +1583,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1546,
     "slug": "weed-puller-tool-4-tooth-steel-hand-weeder",
-    "name": "Weed Puller Tool - 4-Tooth Steel Hand Weeder",
-    "shortName": "4-Tooth Steel Hand Weed Puller",
+    "name": "Hand Weeder, 4-Tooth Steel Weed Puller",
+    "shortName": "4-Tooth Steel Hand Weeder",
     "price": 24,
     "category": "Garden & Outdoor",
     "categorySlug": "garden-outdoor",
@@ -1628,13 +1596,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Uprooting Weeding Tool: Handle weeding and digging tasks with ease. This hollow designed lightweight uprooting weeding tool is labor-saving and much convenient.",
+    "summary": "Pull weeds out at the root without bending over a shovel. The 4-tooth steel head grips and lifts stubborn weeds from beds and lawns.",
     "highlights": [
-      "Uprooting Weeding Tool: Handle weeding and digging tasks with ease. This hollow designed lightweight uprooting weeding tool is labor-saving and much convenient. Perfect helper for agricultural work such as weeding, digging, shoveling grass for orchards and gardens. No need to pull those pesky weeds by hands!",
-      "Practical Weed Pulling Tool: 16 inches lengthen weeder tool. It is the perfect length for a weed puller. Use electroplated and polished craftsmanship, the durable handle is more comfortable to hold, which is better than other weeder in the market.",
-      "4-Tine Weeder: The 4 tines can easily loosen the soil to the bottom of the grass、plant vegetables 、 fruits and flower pots. At the same time, you do not have to squat or get your hands dirty, just let the weed puller help with the daily basic home gardening work.",
-      "Durable Material: The four-tooth uprooting weeding tool is made of high-quality anti-rust manganese steel, with high hardness and durability. The 8 mm steel bars has high impact resistance and tensile strength, not easy to deform or break. The polished surface is non-stick.",
-      "Multi-Functional: Great for prying thistles, dandelions, crabgrass, chickweed and common garden weeds. Also suitable for growing flowers and vegetables to make your garden beautiful. Package including 2 Pcs of weed puller tools"
+      "4-tooth steel head",
+      "Removes weeds by the root",
+      "Good for flower beds, lawns and vegetable gardens"
     ],
     "specs": [
       {
@@ -1684,8 +1650,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1542,
     "slug": "leses-solar-turtle-garden-statue-7-led-lights-outdoor-decor",
-    "name": "LESES Solar Turtle Garden Statue - 7 LED Lights Outdoor Decor",
-    "shortName": "LESES Solar Turtle Garden Statue",
+    "name": "Solar Turtle Garden Statue with 7 LED Lights",
+    "shortName": "Solar Turtle Garden Statue",
     "price": 27,
     "compareAtPrice": 36,
     "category": "Garden & Outdoor",
@@ -1698,13 +1664,12 @@ export const PRODUCTS: Product[] = [
     "topItem": true,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Turtle Garden Statue - This turtle resin statue with solar-powered lights and is beautifully adorned with succulent plant ornaments, it feels like a really cute smile turtle living in the garden. It adds more energy and color to your house and garden",
+    "summary": "A little turtle that lights up your garden at night. It charges from the sun and needs no wiring.",
     "highlights": [
-      "Turtle Garden Statue - This turtle resin statue with solar-powered lights and is beautifully adorned with succulent plant ornaments, it feels like a really cute smile turtle living in the garden. It adds more energy and color to your house and garden",
-      "Solar Powered - No wires required! This decorative outdoor figurines is equipped with 7 warm - white LED lights and is powered by the sun. If fully charged during the day, it can work for about 5-10 hours at night. Auto turns on at dusk and off at dawn",
-      "Weather Resistance - This turtle figurines made of resin material, hand-painted and finished with a UV resistant coating. This construction enables it to withstand all kinds of weather conditions. Product Size: 8.7 \"L x 5 \"W x 6 \"H",
-      "Easy To Use - Always keep the turtle solar statue's switch \"ON\" during charging, remove the protective film from the solar panel, make sure the solar panel can receive at least 8 hours full and direct sunshine each day for optimal performance",
-      "Great Garden Decor - Add charm to your outdoor space with our solar lawn ornament, perfect for patio accents, or a delightful turtle collection. Brighten everyday moments or share heartfelt appreciation with its effortless solar-powered beauty, day or night. A thoughtful way to enhance any home or garden"
+      "Solar powered, no wiring or batteries to replace",
+      "7 LED lights",
+      "Outdoor decor for gardens, patios and porches",
+      "A good housewarming or Mother's Day gift"
     ],
     "specs": [
       {
@@ -1754,8 +1719,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1541,
     "slug": "clear-soap-dispenser-2-pack-16oz-rustproof-pump",
-    "name": "Clear Soap Dispenser 2-Pack (16oz) - Rustproof Pump",
-    "shortName": "Clear Pump Soap Dispenser (2-Pack)",
+    "name": "Clear Soap Dispensers, 2-Pack (16oz) with Rustproof Pump",
+    "shortName": "Clear Soap Dispensers, 2-Pack, 16oz",
     "price": 20,
     "category": "Bathroom Accessories",
     "categorySlug": "bathroom-accessories",
@@ -1767,12 +1732,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Elegant Bathroom Soap Dispenser with Waterproof Labels: Stylish gorgeous looking hand soap dispenser, functional and aesthetically pleasing. This soap dispenser features easy pressing, durable and practical, Use this as Kitchen Soap Dispenser Or Fill It With Lotion as a Farmhouse Style and Practical Bathroom Decor.",
+    "summary": "Two refillable dispensers for the kitchen and bathroom. The rustproof pump is meant to keep working for the long haul.",
     "highlights": [
-      "Elegant Bathroom Soap Dispenser with Waterproof Labels: Stylish gorgeous looking hand soap dispenser, functional and aesthetically pleasing. This soap dispenser features easy pressing, durable and practical, Use this as Kitchen Soap Dispenser Or Fill It With Lotion as a Farmhouse Style and Practical Bathroom Decor. Beautiful accessory of your home, make your house neat, organized and stylish. Two elegant high-end labels included, Hand Soap, Dish Soap, durable and waterproof for daily use.",
-      "Superior Quality: Made of High-Quality Thick PET plastic, Heavy Duty and Durable, Won't break, natural and safe to fill with all kinds of daily use liquids. Reusable and recyclable clear pump bottles lets you see the content clearly and reminds you to replenish. With BPA-free smooth pump head, the Sturdy Pump Can Kept Long Lasting Bright That Not Easy Corrode Or Rust. The Sleek design round bottle is dishwasher safe and reusable.",
-      "No-Leaking Pump: The pump enables you to put out a good amount of soap with a single pump. No leaking or dripping. Sturdy enough not easy corrode or rust. Dish Soap Dispenser Size: 8.7\"x3.0\". Volume: 16.9 OZ.",
-      "MULTI-PURPOSE: Use the beautiful soap dispenser for hand soap, dish soap, lotion, shampoo, body wash, mouthwash, hand sanitizer, massage oil, food ingredients and much more. It can be placed in any countertops, bathroom, kitchen, or office. Dispenser Pump Bottle holds 16.9 Ounce Of Liquid Soap. Reusable and refillable, Eco-friendly green, money-saving."
+      "2 dispensers, 16oz each",
+      "Rustproof pump",
+      "Clear, so you can see when to refill",
+      "Works for hand soap, dish soap and lotion"
     ],
     "specs": [
       {
@@ -1822,8 +1787,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1540,
     "slug": "14oz-glass-soap-dispenser-stainless-steel-pump-refillable",
-    "name": "14oz Glass Soap Dispenser - Stainless Steel Pump, Refillable",
-    "shortName": "14oz Glass Pump Soap Dispenser",
+    "name": "14oz Glass Soap Dispenser with Stainless Steel Pump, Refillable",
+    "shortName": "14oz Glass Soap Dispenser",
     "price": 18,
     "category": "Bathroom Accessories",
     "categorySlug": "bathroom-accessories",
@@ -1835,13 +1800,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Stylish Design : Simple and functional aesthetic of the Soap Dispenser makes your kitchen and bathroom countertop looks elegant and modern.",
+    "summary": "A glass dispenser with a stainless steel pump that looks better on the counter than a store bottle. Fill it with your favorite soap or lotion.",
     "highlights": [
-      "Stylish Design : Simple and functional aesthetic of the Soap Dispenser makes your kitchen and bathroom countertop looks elegant and modern.",
-      "Material：The soap dispenser bottle is made of high-quality glass, the pump head is made of high quality 304 stainless steel, Let you say goodbye to the trouble of rust.and use it with confidence.",
-      "Versatile: This soap dispenser can hold hand soap, body wash, shampoo, lotion and many other liquids for kitchens, bathrooms and other places.",
-      "Perfect Size : This soap dispenser measures 7” Height，2.8” IN Diameter and is capable of holding 14 ounces of liquid.",
-      "Excellent service : In case of any unhappiness during your purchase, we offer you a satisfaction-guaranteed after-sale service. Please contact us through the order page, we'll reply to you within 12 hours and solve your problem with 48 hours!"
+      "14oz glass bottle",
+      "Stainless steel pump",
+      "Refillable, which cuts down on plastic"
     ],
     "specs": [
       {
@@ -1891,8 +1854,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1539,
     "slug": "2026-kitchen-soap-dispenser-13oz-with-sponge",
-    "name": "2026 Kitchen Soap Dispenser 13oz with Sponge",
-    "shortName": "13oz Kitchen Soap Pump & Caddy",
+    "name": "Kitchen Soap Dispenser with Sponge Holder, 13oz",
+    "shortName": "Kitchen Soap Dispenser with Sponge, 13oz",
     "price": 20,
     "category": "Bathroom Accessories",
     "categorySlug": "bathroom-accessories",
@@ -1904,13 +1867,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Effortless Dispensing with Large Quantity - Dispenses soap easily, holds up to 13 oz of fluid. Liquid soap dispenser for Kitchen sink.",
+    "summary": "Keep dish soap and a sponge together at the sink. Pump out what you need and have your scrubber ready.",
     "highlights": [
-      "Effortless Dispensing with Large Quantity - Dispenses soap easily, holds up to 13 oz of fluid. Liquid soap dispenser for Kitchen sink.",
-      "Spend Less Time Washing Up - Reduce the time you spend at the kitchen sink by using LIFEEZY Effortless soap dispenser which allows you to wash dishes faster.",
-      "Eliminate Sink Clutter - No more messy spills, dripping, or trailing! Kitchen soap dispenser with attached caddy holds sponges, scrubbers, rags, scouring pads in one convenient place while keeping water off kitchen counters. We've included this beautiful Christmas tree for holding sponges and rags so that it gets dry quickly",
-      "Save Time and Soap - Dispense the perfect amount of soap onto the sponge every time. Can help reduce wasted soap as you can always use a considered amount. Works with all kinds of liquid soaps",
-      "Quality & Service Satisfaction: We always take quality and service as our business philosophy, we believe you will like our products, if you have any questions please contact us, we will give you a satisfactory compensation within 24 hours!"
+      "13oz capacity",
+      "Sponge included",
+      "Keeps the sink area tidy"
     ],
     "specs": [
       {
@@ -1942,7 +1903,7 @@ export const PRODUCTS: Product[] = [
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
-        "body": "Super pleased with the 2026 Kitchen Soap Dispenser 13oz with Sponge. Build quality feels solid right out of the box and shipping from NY was quick.",
+        "body": "Super pleased with the Kitchen Soap Dispenser with Sponge Holder, 13oz. Build quality feels solid right out of the box and shipping from NY was quick.",
         "verified": true
       },
       {
@@ -1960,8 +1921,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1538,
     "slug": "freshmint-chenille-bath-mat-24x17-non-slip",
-    "name": "FRESHMINT Chenille Bath Mat 24\"x17\" - Non-Slip",
-    "shortName": "FRESHMINT Chenille Bath Mat 24\"x17\"",
+    "name": "Soft Chenille Bath Mat, 24\" x 17\", Non-Slip",
+    "shortName": "Chenille Bath Mat, 24\" x 17\"",
     "price": 25,
     "compareAtPrice": 33,
     "category": "Bathroom Accessories",
@@ -1974,13 +1935,12 @@ export const PRODUCTS: Product[] = [
     "topItem": true,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "1.2-Inch Fluffy Chenille Pile - Experience unmatched softness and comfort with our bathroom rugs made of 1.2-inch ultra soft chenille pile. Thicker than other bath mats in the market, our chenille bath mat features the coziest, softest chenille fabric you have ever seen.",
+    "summary": "A plush chenille mat that feels good under wet feet. The non-slip backing helps it stay put on the floor.",
     "highlights": [
-      "1.2-Inch Fluffy Chenille Pile - Experience unmatched softness and comfort with our bathroom rugs made of 1.2-inch ultra soft chenille pile. Thicker than other bath mats in the market, our chenille bath mat features the coziest, softest chenille fabric you have ever seen.",
-      "Soft & Comfortable - Indulge in unparalleled comfort with our luxurious bath mat. Made from high-pile chenille, it envelops your feet in soothing softness, providing a heavenly experience after every bath. No more stepping onto hard, cold floors-our bath rug pampers you with its plush and cozy feel.",
-      "Ultra Absorbent & Quick Dry - Experience exceptional water absorption with our premium bath rugs. The thick chenille yarn efficiently wicks away moisture, leaving your feet dry and comfortable in a matter of seconds. Enjoy the convenience of a fast-drying bath rug that enhances your daily routine.",
-      "Non-slip Backing - Safety is paramount, especially in the bathroom. Our chenille bathroom mat features a hot-glue anti-slip backing that ensures stability and prevents slips and falls. It provides secure footing on any surface, giving you peace of mind for your family's safety.",
-      "Easycare & Built to Last - Made from top-quality materials and crafted with the utmost care, our bath mats for bathroom are built to last and provide unbeatable comfort and durability, even after repeated washing. Maintenance is a breeze with our bath mat, simply machine wash on gently in cold water, then tumble dry low."
+      "24\" x 17\"",
+      "Soft chenille surface",
+      "Non-slip backing",
+      "Easy to refresh in the wash (confirm care instructions with your supplier)"
     ],
     "specs": [
       {
@@ -2034,8 +1994,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1537,
     "slug": "adjustable-metal-leaf-rake-8-17-heavy-duty-garden-tool",
-    "name": "Adjustable Metal Leaf Rake 8-17\" - Heavy Duty Garden Tool",
-    "shortName": "Adjustable Heavy-Duty Leaf Rake",
+    "name": "Adjustable Metal Leaf Rake (8\"-17\"), Heavy Duty",
+    "shortName": "Adjustable Metal Leaf Rake",
     "price": 35,
     "compareAtPrice": 46,
     "category": "Garden & Outdoor",
@@ -2048,13 +2008,11 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Heavy duty 1\" diameter expandable metal rake for leaves painted black to prevent rusting and bending under heavy use.",
+    "summary": "Adjust the width for open lawns or tight garden beds. It's a sturdy metal rake for fall cleanup.",
     "highlights": [
-      "Heavy duty 1\" diameter expandable metal rake for leaves painted black to prevent rusting and bending under heavy use.",
-      "8\" small rake head is designed for raking pine straw in tight spots and it does the trick to het leaves out from around small shrubs or flower beds.",
-      "17\" wider rake head makes heavy raking in your backyard easier and will rake the tall grass in the orchard even on the uneven ground.",
-      "30-58 inch Long Handle adjustable rake allows people of all heights to use comfortably. Handle comes in multiple pieces with center poles.",
-      "1 mins to assemble collapsible rake by screwing poles together with no extra tools required and easy to carry for camping."
+      "Adjustable from 8\" to 17\"",
+      "Heavy-duty metal construction",
+      "Works in open areas and tight spaces"
     ],
     "specs": [
       {
@@ -2104,8 +2062,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1536,
     "slug": "ecally-3-pcs-cute-phone-camera-charms",
-    "name": "Ecally 3-Pcs Cute Phone & Camera Charms",
-    "shortName": "Ecally Cute Phone & Camera Charms",
+    "name": "Cute Phone & Camera Charms, 3-Piece Set",
+    "shortName": "Phone & Camera Charms, 3-Piece Set",
     "price": 17,
     "category": "Phone Case",
     "categorySlug": "phone-case",
@@ -2117,13 +2075,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Trendy Styles: with these chic phone charms, no phone will ever look dull again; The charm comes in a beautiful white color, making it an elegant accessory that brings out its y2k aesthetic vintage; The ideal way to express your individuality and style, it's an enhancement every phone deserves",
+    "summary": "Three cute charms for your phone, camera or bag. A small touch that makes your gear easier to spot and more fun to carry.",
     "highlights": [
-      "Trendy Styles: with these chic phone charms, no phone will ever look dull again; The charm comes in a beautiful white color, making it an elegant accessory that brings out its y2k aesthetic vintage; The ideal way to express your individuality and style, it's an enhancement every phone deserves",
-      "Wide Range of Use: the charms for phone case aren't just for phones; The universal compatibility and design of the beaded phone strap means you can use it on a plethora of items like shoulder bags, cameras, wallets, keychains, ID cards, U disks, car keys, and other lightweight electronic accessories in need of that distinct and glittering touch",
-      "Quality Materials: you don't just get style, you also get durability with these phone accessories charms; Made with faux pearl, acrylic beads, polymer clay, and a robust nylon rope, your phone charms will not only look elegant but last the test of time and daily use",
-      "Security and Decorative: to misplace or lose your phone can be a nightmare, but with our phone beaded wrist strap, you can help avert this disaster; Just attach it to your phone strap or case, and it becomes an easily identifiable part of your phone; And it's not only practical, its decorative design makes your device more elegant",
-      "Ideal Gift Idea: if you are struggling with what to give on birthdays, anniversaries, graduations, or holidays such as Thanksgiving, Valentine's Day or Mother's Day, the cute phone charm is the solution; With its appealing look, practical use, and wide range of applications, it's a gift that won't be easily forgotten"
+      "3 charms per set",
+      "Works on phones, cameras and bags",
+      "Lightweight and easy to attach",
+      "Pairs well with a new phone case"
     ],
     "specs": [
       {
@@ -2173,8 +2130,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1535,
     "slug": "four-cup-non-stick-egg-pan-divided-omelet-pan",
-    "name": "Four-Cup Non-Stick Egg Pan - Divided Omelet Pan",
-    "shortName": "Four-Cup Nonstick Divided Egg Pan",
+    "name": "Four-Cup Non-Stick Egg Pan, Divided Omelet Pan",
+    "shortName": "Four-Cup Non-Stick Egg Pan",
     "price": 25,
     "category": "Home and Kitchen",
     "categorySlug": "home-and-kitchen",
@@ -2186,13 +2143,12 @@ export const PRODUCTS: Product[] = [
     "topItem": false,
     "inStock": true,
     "pickupEligible": true,
-    "summary": "Made of medical stone, which is non-stick and non-burnt, and has the abrasion resistance of 35W times. Fried eggs without oily smoke!",
+    "summary": "Make four eggs at once, with no mixing and no mess. Each cup keeps its own portion, so you can cook breakfast for the whole family in one go.",
     "highlights": [
-      "Made of medical stone, which is non-stick and non-burnt, and has the abrasion resistance of 35W times. Fried eggs without oily smoke!",
-      "Medical stone Egg Pan got the certifications of FDA, SGS and LFGB, so you can safely cook healthy food.",
-      "The egg pan can work well on gas stove, electric stove or induction stove. Dishwasher safe!",
-      "The egg pan is 7.5 inches in length and width, 1 inch in height, and each cup is 3.6 inches. Including the handle, the total length is 14 inches.",
-      "note: Our screws are included in the product. Please check carefully. If the screws are damaged, please contact us at any time."
+      "4 separate cups, each cooked individually",
+      "Non-stick surface for easy release",
+      "Good for fried eggs, mini omelets and pancakes",
+      "Saves time on busy mornings"
     ],
     "specs": [
       {
@@ -2242,8 +2198,8 @@ export const PRODUCTS: Product[] = [
   {
     "id": 1534,
     "slug": "potaroma-3-pack-catnip-fish-toys",
-    "name": "Potaroma 3-Pack Catnip Fish Toys",
-    "shortName": "Potaroma 3-Pack Catnip Fish Toys",
+    "name": "Catnip Fish Toys for Cats, 3-Pack",
+    "shortName": "Catnip Fish Toys, 3-Pack",
     "price": 21,
     "category": "Pet Supplies",
     "categorySlug": "pet-supplies",
@@ -2255,13 +2211,11 @@ export const PRODUCTS: Product[] = [
     "topItem": true,
     "inStock": true,
     "pickupEligible": false,
-    "summary": "Cozy Companion: Our catnip fish kicker toys are all made of soft plush material and baby-level cotton, soft and comfortable enough for your feline friends to snuggle and chew.",
+    "summary": "Three fish-shaped catnip toys for chasing, kicking and carrying around. Rotate them to keep playtime interesting.",
     "highlights": [
-      "Cozy Companion: Our catnip fish kicker toys are all made of soft plush material and baby-level cotton, soft and comfortable enough for your feline friends to snuggle and chew.",
-      "Organic Catnip Filled: Stuffed with 100% pure, potent and organic catnip. Catnip, the favorite natural herb of most cats, will maximize the chance to make cats excited and make interactive playtime irresistible.",
-      "Boredom Relief: Cats have a natural instinct to pat and pounce. Kitten kicker sticks toy can help cats chase and chew training and stimulate their hunting instincts, help cats grow up better and healthier, and strengthen the interaction between you and cats.",
-      "Perfect Gift: In 3 different colors, green, yellow, and orange, which are bright in colors, attracting the attention of your feline friends. Perfect for kittens to hold or scratch",
-      "We stand behind each product we sell. If any issue, please contact our customer service and we'll do anything possible to fix it."
+      "3 fish toys in the pack",
+      "Filled for catnip fun",
+      "Good for solo play or play with you"
     ],
     "specs": [
       {
@@ -2309,6 +2263,7 @@ export const PRODUCTS: Product[] = [
     ]
   }
 ];
+
 export const ALL_BRANDS: string[] = Array.from(
   new Set(PRODUCTS.map((p) => p.brand))
 ).sort((a, b) => a.localeCompare(b));
