@@ -307,7 +307,7 @@ export function FilterSidebar({
         )}
       </section>
 
-      {/* 4. Delivery Options Card (Standard vs Catskill Pick Up) */}
+      {/* 4. Delivery Options Card (Standard vs Local Pick Up) */}
       <section className="rounded-[22px] border border-[#EAECEF] bg-white p-4 shadow-[0_2px_10px_rgba(20,21,35,0.025)]">
         <div className="flex items-center justify-between">
           <h2 className="text-[15px] font-bold text-[#141523]">

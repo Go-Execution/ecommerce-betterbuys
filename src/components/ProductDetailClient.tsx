@@ -13,7 +13,6 @@ import {
   HeartIcon,
   LightningIcon,
   MagnifyingGlassPlusIcon,
-  MapPinIcon,
   MinusIcon,
   PlusIcon,
   ShieldCheckIcon,
@@ -296,7 +295,7 @@ export function ProductDetailClient({
 
             <div className="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700">
               <CheckCircleIcon size={15} weight="fill" />
-              <span>In stock & ready to dispatch from Catskill, NY</span>
+              <span>In stock & ready to dispatch within 24 hours</span>
             </div>
 
             <p className="mt-4 text-sm leading-relaxed text-[#5C6078]">
@@ -401,12 +400,10 @@ export function ProductDetailClient({
                 </div>
               </div>
               <div className="flex items-center gap-2.5 rounded-2xl bg-[#F7F8FC] p-3">
-                <MapPinIcon size={18} weight="bold" className="shrink-0 text-[#0077EE]" />
+                <LightningIcon size={18} weight="bold" className="shrink-0 text-[#0077EE]" />
                 <div className="text-xs">
-                  <p className="font-bold text-[#141523]">
-                    {product.pickupEligible ? "Local Pickup" : "NY Dispatch"}
-                  </p>
-                  <p className="text-[#7A7E96]">Catskill, NY 12414</p>
+                  <p className="font-bold text-[#141523]">Fast Fulfillment</p>
+                  <p className="text-[#7A7E96]">Dispatches in 24h</p>
                 </div>
               </div>
               <div className="flex items-center gap-2.5 rounded-2xl bg-[#F7F8FC] p-3">

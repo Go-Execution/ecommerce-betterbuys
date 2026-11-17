@@ -7,7 +7,7 @@ import { ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions (FAQ) | Ecommerce Better Buys",
   description:
-    "Find answers to frequently asked questions about shipping, 30-day returns, local pickup in Catskill NY, payments, and order tracking.",
+    "Find answers to frequently asked questions about shipping, 30-day returns, local warehouse pickup, payments, and order tracking.",
 };
 
 export default function FAQPage() {

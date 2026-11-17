@@ -3,11 +3,11 @@ import { CategoryInfo, Product, ShippingOption } from "@/types/store";
 export const STORE_INFO = {
   brandName: "Ecommerce Better Buys",
   shortBrand: "Better Buys",
-  owner: "Joseph Casanova",
+  owner: "Ecommerce Better Buys",
   legalName: "Ecommerce Better Buys LLC",
-  address: "900 Route 23A, Catskill, NY 12414",
+  address: "",
   email: "info@ecommercebetterbuys.com",
-  altEmail: "casanovajoseph74@yahoo.com",
+  altEmail: "support@ecommercebetterbuys.com",
   freeShippingThreshold: 50,
   promoCodes: {
     BETTER10: { percent: 10, label: "10% off your order" },
@@ -33,10 +33,10 @@ export const SHIPPING_OPTIONS: ShippingOption[] = [
   },
   {
     id: "pickup",
-    label: "Catskill Warehouse Pickup",
+    label: "Local Warehouse Pickup",
     eta: "Ready in 2 hours",
     price: 0,
-    description: "900 Route 23A, Catskill, NY 12414",
+    description: "Free local pickup (details provided at confirmation)",
   },
 ];
 
@@ -146,7 +146,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -157,7 +157,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1567-1",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
@@ -215,7 +215,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -287,7 +287,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -361,7 +361,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -435,7 +435,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -461,7 +461,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1563-2",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "September 2026",
         "title": "Great everyday value for the price",
@@ -508,7 +508,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -580,7 +580,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -591,7 +591,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1561-1",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
@@ -647,7 +647,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -715,7 +715,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -784,7 +784,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -856,7 +856,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -881,7 +881,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1557-2",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 4,
         "date": "September 2026",
         "title": "Great everyday value for the price",
@@ -927,7 +927,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -994,7 +994,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1005,7 +1005,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1555-1",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
@@ -1061,7 +1061,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1128,7 +1128,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1195,7 +1195,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1265,7 +1265,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1291,7 +1291,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1551-2",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "September 2026",
         "title": "Great everyday value for the price",
@@ -1338,7 +1338,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1406,7 +1406,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1421,7 +1421,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1549-1",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
@@ -1479,7 +1479,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1550,7 +1550,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1617,7 +1617,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1686,7 +1686,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1707,7 +1707,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1542-2",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "September 2026",
         "title": "Great everyday value for the price",
@@ -1754,7 +1754,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1821,7 +1821,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1832,7 +1832,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1540-1",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",
@@ -1888,7 +1888,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -1957,7 +1957,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -2029,7 +2029,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -2097,7 +2097,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -2118,7 +2118,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1536-2",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 4,
         "date": "September 2026",
         "title": "Great everyday value for the price",
@@ -2165,7 +2165,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -2232,7 +2232,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "label": "Fulfillment",
-        "value": "Ships within 24h from Catskill, NY"
+        "value": "Ships within 24h with Tracking"
       },
       {
         "label": "Return Policy",
@@ -2243,7 +2243,7 @@ export const PRODUCTS: Product[] = [
       {
         "id": "rev-1534-1",
         "author": "Hannah M.",
-        "location": "Hudson Valley, NY",
+        "location": "New York, NY",
         "rating": 5,
         "date": "October 2026",
         "title": "Arrived fast and exceeded expectations",

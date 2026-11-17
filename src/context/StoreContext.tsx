@@ -446,7 +446,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       const etaMap: Record<ShippingMethodId, string> = {
         standard: "3 to 5 business days",
         express: "1 to 2 business days",
-        pickup: "Today in 2 hours (Catskill, NY)",
+        pickup: "Today in 2 hours (Local Pickup)",
       };
 
       const newOrder: OrderRecord = {

@@ -71,7 +71,7 @@ function ThankYouContent() {
 
           <p className="mt-2 max-w-lg text-sm leading-relaxed text-[#5C6078]">
             {order
-              ? `We have sent an order summary to ${order.customer.email}. Your items are being prepared at our Catskill, NY facility.`
+              ? `We have sent an order summary to ${order.customer.email}. Your items are being prepared at our fulfillment facility.`
               : "Your order confirmation is complete. Check your order history or keep browsing our everyday deals."}
           </p>
 
@@ -80,7 +80,7 @@ function ThankYouContent() {
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
               {[
                 { label: "Order Placed", active: true, icon: CheckCircleIcon },
-                { label: "Packing in NY", active: true, icon: PackageIcon },
+                { label: "Packing Order", active: true, icon: PackageIcon },
                 { label: "On the Way", active: false, icon: TruckIcon },
                 { label: "Delivered", active: false, icon: MapPinIcon },
               ].map((step, i) => {
@@ -267,7 +267,7 @@ function ThankYouContent() {
         </div>
 
         <p className="mt-6 text-center text-xs text-[#8C90A6]">
-          Need help with this order? Contact {STORE_INFO.email} or visit {STORE_INFO.address}.
+          Need help with this order? Contact our support team at {STORE_INFO.email}.
         </p>
       </motion.section>
 

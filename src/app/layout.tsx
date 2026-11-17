@@ -28,7 +28,7 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Ecommerce Better Buys | Everyday Essentials & Smart Deals",
   description:
-    "Shop curated home, kitchen, fitness, pet care, garden, and phone accessories at Ecommerce Better Buys. Fast shipping from Catskill, NY and free delivery over $50.",
+    "Shop curated home, kitchen, fitness, pet care, garden, and phone accessories at Ecommerce Better Buys. Fast nationwide US shipping and free delivery over $50.",
 };
 
 export default function RootLayout({

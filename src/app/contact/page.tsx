@@ -5,8 +5,8 @@ import Link from "next/link";
 import {
   CheckCircleIcon,
   EnvelopeSimpleIcon,
-  MapPinIcon,
   PaperPlaneTiltIcon,
+  ShieldCheckIcon,
   TruckIcon,
 } from "@phosphor-icons/react";
 import { STORE_INFO } from "@/data/products";
@@ -32,25 +32,25 @@ export default function ContactPage() {
     <div className="mx-auto max-w-[1160px] px-4 py-10 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
         <div className="space-y-5 lg:col-span-5">
-          <span className="inline-flex rounded-full bg-[#EEEBFF] px-3 py-1 text-xs font-bold text-[#5D45FD]">
-            Customer Support & Local Pickup
+          <span className="inline-flex rounded-full bg-[#FFF1E5] px-3 py-1 text-xs font-bold text-[#FF6B00]">
+            Customer Support & Service
           </span>
           <h1 className="font-display text-3xl font-bold tracking-tight text-[#141523]">
             Questions about an order or product?
           </h1>
           <p className="text-sm leading-relaxed text-[#5C6078]">
-            Reach our Catskill, NY team directly for order tracking, product sizing, bulk availability, or local pickup coordination.
+            Reach the Ecommerce Better Buys team directly for order tracking, product sizing, bulk orders, or customer service.
           </p>
 
           <div className="space-y-3 rounded-[24px] border border-[#EAECEF] bg-white p-5 shadow-xs">
             <div className="flex items-start gap-3">
-              <MapPinIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
+              <TruckIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#8C90A6]">
-                  Fulfillment & Pickup Address
+                  Nationwide US Delivery
                 </p>
                 <p className="mt-0.5 text-sm font-semibold text-[#141523]">
-                  {STORE_INFO.address}
+                  Fast Ground Shipping (3-5 Business Days)
                 </p>
               </div>
             </div>
@@ -75,13 +75,13 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-start gap-3 border-t border-[#F3F4F8] pt-3">
-              <TruckIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
+              <ShieldCheckIcon size={20} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#8C90A6]">
-                  Dispatch Window
+                  Dispatch & Guarantee
                 </p>
                 <p className="mt-0.5 text-sm text-[#5C6078]">
-                  Orders placed before 2 PM EST ship same business day. Local pickup ready in 2 hours.
+                  Orders ship same or next business day with full tracking. 30-day money-back guarantee.
                 </p>
               </div>
             </div>
@@ -106,52 +106,54 @@ export default function ContactPage() {
                   Message Sent!
                 </h2>
                 <p className="mt-2 text-sm text-[#5C6078]">
-                  Thanks for reaching out to Ecommerce Better Buys. Our Catskill team responds within 1 business day.
+                  Thanks for reaching out to Ecommerce Better Buys. Our support team responds within 1 business day.
                 </p>
                 <button
                   type="button"
                   onClick={() => setSent(false)}
-                  className="mt-6 rounded-full bg-[#FF6B00] px-6 py-2.5 text-xs font-bold text-white"
+                  className="mt-6 rounded-full bg-[#FF6B00] px-6 py-2.5 text-xs font-bold text-white hover:bg-[#E55A00]"
                 >
-                  Send Another Message
+                  Send Another Note
                 </button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
                 <h2 className="font-display text-xl font-bold text-[#141523]">
-                  Send a Support Message
+                  Send a Direct Message
                 </h2>
+                <p className="text-xs text-[#7A7E96]">
+                  Fill out the form below and we will get back to you within 24 hours.
+                </p>
+
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
                     <label
-                      htmlFor="cnt-name"
-                      className="block text-xs font-bold text-[#35384B]"
+                      htmlFor="contact-name"
+                      className="text-xs font-bold uppercase tracking-wider text-[#5C6078]"
                     >
                       Your Name <span className="text-rose-500">*</span>
                     </label>
                     <input
-                      id="cnt-name"
+                      id="contact-name"
                       type="text"
                       required
-                      autoComplete="name"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="Taylor Brooks"
+                      placeholder="Jane Doe"
                       className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                     />
                   </div>
                   <div>
                     <label
-                      htmlFor="cnt-email"
-                      className="block text-xs font-bold text-[#35384B]"
+                      htmlFor="contact-email"
+                      className="text-xs font-bold uppercase tracking-wider text-[#5C6078]"
                     >
-                      Email Address <span className="text-rose-500">*</span>
+                      Your Email <span className="text-rose-500">*</span>
                     </label>
                     <input
-                      id="cnt-email"
+                      id="contact-email"
                       type="email"
                       required
-                      autoComplete="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="you@example.com"
@@ -162,35 +164,35 @@ export default function ContactPage() {
 
                 <div>
                   <label
-                    htmlFor="cnt-order"
-                    className="block text-xs font-bold text-[#35384B]"
+                    htmlFor="contact-order"
+                    className="text-xs font-bold uppercase tracking-wider text-[#5C6078]"
                   >
-                    Order Number (optional)
+                    Order Number (Optional)
                   </label>
                   <input
-                    id="cnt-order"
+                    id="contact-order"
                     type="text"
                     value={orderRef}
                     onChange={(e) => setOrderRef(e.target.value)}
-                    placeholder="EBB-123456"
+                    placeholder="EBB-1001"
                     className="mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
 
                 <div>
                   <label
-                    htmlFor="cnt-msg"
-                    className="block text-xs font-bold text-[#35384B]"
+                    htmlFor="contact-message"
+                    className="text-xs font-bold uppercase tracking-wider text-[#5C6078]"
                   >
                     Message <span className="text-rose-500">*</span>
                   </label>
                   <textarea
-                    id="cnt-msg"
+                    id="contact-message"
                     required
                     rows={4}
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
-                    placeholder="How can we help with your order or product question?"
+                    placeholder="How can Ecommerce Better Buys help you today?"
                     className="ebb-input mt-1.5 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] p-4 text-base focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
@@ -199,7 +201,7 @@ export default function ContactPage() {
                   type="submit"
                   className="inline-flex h-12 items-center gap-2 rounded-full bg-[#FF6B00] px-7 text-sm font-bold text-white shadow-md shadow-[#FF6B00]/25 transition-all hover:bg-[#E55A00] active:scale-[0.98]"
                 >
-                  <PaperPlaneTiltIcon size={17} weight="bold" />
+                  <PaperPlaneTiltIcon size={16} weight="bold" />
                   <span>Send Message</span>
                 </button>
               </form>

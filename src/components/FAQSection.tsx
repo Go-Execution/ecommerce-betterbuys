@@ -28,7 +28,7 @@ const FAQS: FAQItem[] = [
     category: "shipping",
     question: "How fast does shipping take?",
     answer:
-      "All orders are processed and dispatched within 24 hours from our warehouse in Catskill, New York. Standard ground delivery takes 3 to 5 business days across the continental United States. Express 2-Day Priority shipping is also available at checkout if you need your items sooner.",
+      "All orders are processed and dispatched within 24 hours from our US fulfillment center. Standard ground delivery takes 3 to 5 business days across the continental United States. Express 2-Day Priority shipping is also available at checkout if you need your items sooner.",
   },
   {
     id: "faq-free-shipping",
@@ -47,9 +47,9 @@ const FAQS: FAQItem[] = [
   {
     id: "faq-pickup",
     category: "orders",
-    question: "Can I pick up my order locally in New York?",
+    question: "Do you offer local pickup?",
     answer:
-      `Yes! If you are local to Greene County or the Hudson Valley, choose "Catskill Warehouse Pickup" at checkout for free. Your order is typically prepared and ready for collection within 2 hours at ${STORE_INFO.address}.`,
+      "Yes! Free local warehouse pickup is available for local customers. Choose Local Warehouse Pickup at checkout, and we will email you pickup instructions and collection times once your order is ready (typically within 2 hours).",
   },
   {
     id: "faq-tracking",
@@ -63,7 +63,7 @@ const FAQS: FAQItem[] = [
     category: "general",
     question: "Are your products authentic and quality-inspected?",
     answer:
-      "Every single home, kitchen, fitness, tech, and pet care essential is directly curated, packaged, and inspected by Joseph Casanova and our New York team. We only source genuine, high-grade items that we use ourselves.",
+      "Every single home, kitchen, fitness, tech, and pet care essential is directly curated, packaged, and inspected by the Ecommerce Better Buys team. We only source genuine, high-grade items that we use ourselves.",
   },
   {
     id: "faq-payments",
@@ -131,7 +131,7 @@ export function FAQSection() {
         </h2>
 
         <p className="mt-2 text-sm text-[#526079] sm:text-base">
-          Clear answers about shipping from New York, free ground delivery, 30-day returns, and warehouse pickup.
+          Clear answers about fast US delivery, free shipping over $50, 30-day returns, and order support.
         </p>
 
         {/* Category Filter Chips */}
@@ -216,7 +216,7 @@ export function FAQSection() {
             Still have questions or need a custom order?
           </h3>
           <p className="mt-1 text-xs text-[#526079] sm:text-sm">
-            Joseph Casanova and our Catskill team respond to every inquiry within 24 hours.
+            The Ecommerce Better Buys support team responds to every inquiry within 24 hours.
           </p>
         </div>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-2.5 sm:mt-0">

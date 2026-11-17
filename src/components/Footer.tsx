@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { EnvelopeSimpleIcon, MapPinIcon, ShieldCheckIcon } from "@phosphor-icons/react/dist/ssr";
+import { EnvelopeSimpleIcon, ShieldCheckIcon, TruckIcon } from "@phosphor-icons/react/dist/ssr";
 import { BrandLogo } from "@/components/BrandLogo";
 import { CATEGORIES, STORE_INFO } from "@/data/products";
 
@@ -13,12 +13,12 @@ export function Footer() {
     <footer className="mt-16 border-t border-[#E7E9F2] bg-white">
       <div className="mx-auto max-w-[1380px] px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
-          {/* Brand & Warehouse Origin */}
+          {/* Brand & Mission */}
           <div className="space-y-4">
             <BrandLogo />
             <p className="max-w-xs text-sm leading-relaxed text-[#5C6078]">
               Everyday home, kitchen, fitness, pet, garden, and tech essentials
-              curated by Joseph Casanova and shipped quickly from New York.
+              curated by Ecommerce Better Buys and shipped quickly nationwide.
             </p>
             <div className="inline-flex items-center gap-2 rounded-full bg-[#F4F5FA] px-3.5 py-1.5 text-xs font-semibold text-[#FF6B00]">
               <ShieldCheckIcon size={16} weight="fill" />
@@ -89,15 +89,15 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Real Contact & Catskill Location */}
+          {/* Customer Care */}
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-[#8C90A6]">
               Customer Care
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-[#5C6078]">
               <li className="flex items-start gap-2.5">
-                <MapPinIcon size={18} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
-                <span>{STORE_INFO.address}</span>
+                <TruckIcon size={18} weight="bold" className="mt-0.5 shrink-0 text-[#0077EE]" />
+                <span>Fast Nationwide US Shipping</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <EnvelopeSimpleIcon size={18} weight="bold" className="shrink-0 text-[#0077EE]" />
@@ -122,7 +122,7 @@ export function Footer() {
               href="/contact"
               className="mt-4 inline-flex items-center rounded-full border border-[#E7E9F2] bg-[#FAFBFD] px-4 py-2 text-xs font-semibold text-[#141523] transition-colors hover:border-[#FF6B00] hover:text-[#FF6B00]"
             >
-              Contact Support & Pickup Info
+              Contact Customer Support
             </Link>
           </div>
         </div>

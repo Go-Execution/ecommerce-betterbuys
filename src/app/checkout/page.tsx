@@ -107,12 +107,12 @@ export default function CheckoutPage() {
           phone: phone.trim(),
           address:
             shippingMethod === "pickup"
-              ? STORE_INFO.address
+              ? "Local Warehouse Pickup"
               : address.trim(),
-          city: shippingMethod === "pickup" ? "Catskill" : city.trim(),
+          city: shippingMethod === "pickup" ? "Local Pickup" : city.trim(),
           state: shippingMethod === "pickup" ? "NY" : stateCode.trim(),
           postalCode:
-            shippingMethod === "pickup" ? "12414" : postalCode.trim(),
+            shippingMethod === "pickup" ? "00000" : postalCode.trim(),
           notes: notes.trim() || undefined,
         },
         last4
@@ -349,10 +349,10 @@ export default function CheckoutPage() {
                 <MapPinIcon size={20} weight="fill" className="mt-0.5 shrink-0 text-[#0077EE]" />
                 <div>
                   <p className="text-sm font-bold text-[#141523]">
-                    Catskill Warehouse Pickup
+                    Local Warehouse Pickup
                   </p>
                   <p className="mt-0.5 text-xs text-[#5C6078]">
-                    Pick up directly at {STORE_INFO.address}. We will email you as soon as your items are packed (typically within 2 hours).
+                    Free local pickup. We will email you pickup instructions and collection times as soon as your items are packed (typically within 2 hours).
                   </p>
                 </div>
               </div>
@@ -396,7 +396,7 @@ export default function CheckoutPage() {
                     autoComplete="shipping address-level2"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
-                    placeholder="Catskill"
+                    placeholder="New York"
                     className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
@@ -436,7 +436,7 @@ export default function CheckoutPage() {
                     autoComplete="shipping postal-code"
                     value={postalCode}
                     onChange={(e) => setPostalCode(e.target.value)}
-                    placeholder="12414"
+                    placeholder="10001"
                     className="ebb-input mt-1.5 h-12 w-full rounded-xl border border-[#DFE2EE] bg-[#FAFBFD] px-4 text-base text-[#141523] focus:border-[#0077EE] focus:bg-white focus:outline-none"
                   />
                 </div>
@@ -746,7 +746,7 @@ export default function CheckoutPage() {
             <div className="mt-5 space-y-2 rounded-2xl bg-[#F8F9FD] p-3.5 text-xs text-[#5C6078]">
               <p className="flex items-center gap-2 font-semibold text-[#141523]">
                 <TruckIcon size={16} weight="bold" className="text-[#5D45FD]" />
-                <span>Fast dispatch from Catskill, NY 12414</span>
+                <span>Fast nationwide US dispatch</span>
               </p>
               <p className="flex items-center gap-2">
                 <ShieldCheckIcon size={16} weight="bold" className="text-[#5D45FD]" />
